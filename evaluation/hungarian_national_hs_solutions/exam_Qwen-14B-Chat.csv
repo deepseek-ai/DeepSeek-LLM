@@ -1,0 +1,352 @@
+prompt,answer,Points
+"Answer the following question:
+Given are two sets: $A=\{a ; b ; e ; g\}$ and $B=\{a ; b ; c ; d ; f\}$.
+
+By listing its elements, give the set $B \backslash A$.","The set $B \backslash A$ contains all the elements of $B$ that are not in $A$. Therefore, the elements of $B \backslash A$ are:
+
+- $c$
+- $d$
+- $f$
+
+So, the set $B \backslash A$ is:
+
+$B \backslash A = \{c ; d ; f\}$",2.0
+"Answer the following question:
+Bori, Kristóf and Marci are playing a role-playing card game. At the beginning of the game they each select one out of 10 role cards, without replacement. In how many different arrangements of the roles can the game begin?","There are 10 role cards, so each of the three players can choose one of the 10 cards in 10 ways. Therefore, there are a total of 10 * 10 * 10 = 1000 possible arrangements of the roles at the beginning of the game.",0.0
+"Answer the following question:
+Zita's salary has been raised from $275000$ Ft to $308000$ Ft. By what percentage has Zita's salary been raised?","To find the percentage increase in Zita's salary, we can use the following formula:
+percentage increase = (new amount - old amount) / old amount * 100%
+Plugging in the values, we get:
+percentage increase = (308000 - 275000) / 275000 * 100%
+percentage increase = 33000 / 275000 * 100%
+percentage increase = 0.1208 * 100%
+percentage increase = 12.08%
+Therefore, Zita's salary has been raised by 12.08%.",1.0
+"Answer the following question:
+In triangle $A B C \overrightarrow{A B}=\mathbf{b}, \overrightarrow{A C}=\mathbf{c}$. The midpoint of side $A B$ is point $F$, the midpoint of side $A C$ is $G$. Express vector $\overrightarrow{F G}$ in terms of vectors $\mathbf{b}$ and $\mathbf{c}$. Explain your answer.","Let $D$ be the midpoint of $BC$. Then $BD=DC=\frac{BC}{2}$ and $AD=AC-CD=AB+BC-CD=AB+\frac{BC}{2}$.
+Hence, $F=\frac{AB+BC}{2}$ and $G=\frac{AC+BC}{2}$.
+Therefore, $\overrightarrow{FG}=\overrightarrow{AG}-\overrightarrow{AF}=\frac{\overrightarrow{AC}+\overrightarrow{BC}}{2}-\frac{\overrightarrow{AB}+\overrightarrow{BC}}{2}=\frac{\overrightarrow{AC}-\overrightarrow{AB}}{2}=\frac{\overrightarrow{b}}{2}$.",0.0
+"Answer the following question:
+Give five positive numbers such that their median is 3 and their range is 7 .","
+
+One possible set of five positive numbers that satisfy the given conditions is:
+
+1, 2, 3, 6, 8
+
+The median of this set is 3, since there are two numbers (2 and 3) in the middle when the numbers are arranged in order. The range of this set is 7, since the largest number (8) minus the smallest number (1) equals 7.",2.0
+"Answer the following question:
+Determine the decimal (base 10) value of the binary (base 2) number 101011.","To convert a binary number to decimal, we can use the following formula:
+
+decimal value = sum of (2^n * binary digit at position n)
+
+where n starts from 0 (rightmost digit) and goes up to the number of digits in the binary number.
+
+So, for the binary number 101011, we have:
+
+decimal value = 2^0 * 1 + 2^1 * 0 + 2^2 * 1 + 2^3 * 0 + 2^4 * 1 + 2^5 * 1
+              = 1 + 0 + 4 + 0 + 16 + 32
+              = 53
+
+Therefore, the decimal value of the binary number 101011 is 53.",0.0
+"Answer the following question:
+It is known that $\log_{2}(x)=5$. Give the value of $\log_{2}(2x)$. Explain your answer.","We know that $\log_{2}(x)=5$, so $2^5=x$. Therefore, $x=32$. Now we want to find $\log_{2}(2x)$. Substituting $x=32$ into the expression, we get $\log_{2}(2\cdot32)$. Simplifying the expression, we get $\log_{2}(64)$. Since $2^6=64$, we know that $\log_{2}(64)=6$. Therefore, $\log_{2}(2x)=6$.",2.0
+"Answer the following question:
+List all integer values of $x$ for which both of the inequalities $-6 \leq x \leq 2$ and $-4<x<10$ are true.","We start by looking at the first inequality, $-6 \leq x \leq 2$.  The values of $x$ that satisfy this inequality are integers from $-6$ to 2, inclusive.  So, the integers from $-6$ to 2 are part of the solution set.  Next, we look at the second inequality, $-4<x<10$.  This inequality says that $x$ is strictly between $-4$ and 10, so it does not include the values $-4$ or 10.  However, all the integers from $-3$ to 9 are part of the solution set.  Our final answer is the intersection of these two sets of integers, which is $\boxed{-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}$.",0.0
+"Answer the following question:
+Sixteen teams have signed up for the school indoor football championship. In how many different ways can the two teams playing the opening game be selected?","There are 16 teams competing, so there are 16 options to choose the first team. Once the first team is chosen, there are 15 teams left to choose the second team. Therefore, the total number of ways to select the two teams for the opening game is 16 * 15 = 240.",0.0
+"Answer the following question:
+The sides of the right triangle $A B C$ are $a=7, b=24, c=25$ units long. Calculate the length of the height that belongs to the hypotenuse. Explain your answer.","We know that the length of the height that belongs to the hypotenuse of a right triangle is given by the formula $h = c \cdot \sin A$, where $c$ is the length of the hypotenuse and $A$ is the angle opposite to the side $a$.
+In this case, we have $c=25$ units and $a=7$ units, so we can calculate the angle $A$ using the Pythagorean theorem:
+$a^2 + b^2 = c^2 \Rightarrow 7^2 + 24^2 = 25^2 \Rightarrow A = \sin^{-1} \left( \frac{7}{25} \right) \approx 14.06^\circ$
+Now we can use the formula for the height to find its length:
+$h = c \cdot \sin A = 25 \cdot \sin 14.06^\circ \approx 7.07$ units
+Therefore, the length of the height that belongs to the hypotenuse of the given right triangle is approximately 7.07 units.",1.0
+"Answer the following question:
+Given is line $e: 5 x-y=7$. Give one normal vector of line $e$.","A normal vector of a line is a vector that is perpendicular to the line. One way to find a normal vector of a line is to take the gradient of the equation of the line. The gradient of a line is a vector whose components are the partial derivatives of the equation with respect to the variables. In this case, the equation of the line is $5 x-y=7$, so the gradient is $\left(\frac{\partial}{\partial x}(5 x-y), \frac{\partial}{\partial y}(5 x-y)\right) = (5, -1)$. This vector is a normal vector of the line.",1.0
+"Answer the following question:
+Given is line $e: 5 x-y=7$. Give the equation of the line that passes through the point $P(3 ; 2)$ and is parallel to line $e$.","The slope of line $e$ is $5$, so the slope of any line parallel to line $e$ must also be $5$. The equation of the line passing through point $P(3 ; 2)$ with slope $5$ is $y-2=5(x-3)$, which simplifies to $y=5x-13$.",2.0
+"Answer the following question:
+Function $f$ below is defined over the set of non-negative real numbers. Functions $g$ and $h$ are defined over the set of real numbers. 
+$$f(x)=\sqrt{x}-2 \quad g(x)=(x-2)^{2}-3 \quad h(x)=2 \sin x$$
+
+For which function is the following statement true: The minimum value of the function is (-2).","Since $f(x)=\sqrt{x}-2$ is defined only for non-negative $x$, we need not consider it in evaluating the statement.
+Since $g(x)=(x-2)^2-3$ is a square of a linear function, its minimum value is $-3$, which occurs when $x=2$.
+Since $h(x)=2\sin x$ is periodic with period $2\pi$, its minimum value is $-2$, which occurs twice in every period: once in the interval $[0,\pi]$ and once in the interval $[\pi,2\pi]$.
+Therefore, the statement is true for function $h(x)=2\sin x$.",1.0
+"Answer the following question:
+Function $f$ below is defined over the set of non-negative real numbers. Functions $g$ and $h$ are defined over the set of real numbers. 
+$$f(x)=\sqrt{x}-2 \quad g(x)=(x-2)^{2}-3 \quad h(x)=2 \sin x$$
+
+For which function is the following statement true: The function has at least two zeros.","For $f$ to have at least two zeros, it must cross the $x$-axis at least twice. Since $f$ is a square root function, it is always increasing, so it can only cross the $x$-axis at most once. So, $f$ does not have at least two zeros.
+
+For $g$ to have at least two zeros, it must cross the $x$-axis at least twice. Since $g$ is a quadratic function, it can have at most two real zeros. So, $g$ could have at least two zeros.
+
+For $h$ to have at least two zeros, it must cross the $x$-axis at least twice. Since $h$ is a sine function, it has a period of $2\pi$, and it crosses the $x$-axis twice in each period. So, $h$ has at least two zeros.
+
+Therefore, the function that has at least two zeros is $h$.",1.0
+"Answer the following question:
+The numbers $1,2,3,4,5$ and 6 have been written on a sheet of paper. Any two of these numbers are connected with a line (edge) if and only if one number is a divisor of the other (none of the numbers are connected to themselves). This will give a 6-point graph. 
+
+Draw this graph.","
+
+Here is a drawing of the graph:
+
+```
+  1 -- 2 -- 3
+  |    |    |
+  4 -- 5 -- 6
+```
+
+In this graph, each number represents a vertex, and each edge represents a pair of numbers that are connected because one number is a divisor of the other. For example, the edge between 2 and 4 represents the fact that 2 is a divisor of 4.",0.0
+"Answer the following question:
+Determine the truth value of the following two statements (true or false). Explain your answer.
+
+I. There exists a positive integer that has exactly 4 positive divisors.
+
+II. If the integer $n$ is not a divisor of the integer $m$ then $n$ and $m$ are relative primes (co-primes).","I. True. The smallest positive integer with exactly 4 positive divisors is 9, which has divisors 1, 3, 9, and 27. 
+
+II. False. The statement is not true. For example, 6 and 9 are not relatively prime, even though 9 is not a divisor of 6. In fact, any integer that is a multiple of 3 and not a multiple of 2 will not be relatively prime to 6.",3.0
+"Answer the following question:
+Consider the following two events:
+
+A: Roll a fair gambling dice once, the number shown is a divisor of 24.
+
+B: Roll a fair gambling dice twice, none of the numbers shown is a 6 .
+
+Which of the two events has a higher probability?","
+
+To find the probability of event A, we need to count the number of ways to roll a fair dice once and get a number that is a divisor of 24. The divisors of 24 are 1, 2, 3, 4, 6, 8, 12, and 24. Therefore, there are 8 ways to roll a number that is a divisor of 24. Since there are 6 possible outcomes when rolling a fair dice once, the probability of event A is:
+
+P(A) = 8/6 = 4/3
+
+To find the probability of event B, we need to count the number of ways to roll a fair dice twice and get two numbers that are not 6. There are 5 possible outcomes when rolling a fair dice once, so there are 5^2 = 25 possible outcomes when rolling two dice. To get two numbers that are not 6, we can choose any number from 1 to 5 for the first roll and any number from 1 to 5 for the second roll, except for the case where both numbers are 5. Therefore, there are 5^2 - 1 = 24 possible outcomes where both numbers are not 6. So the probability of event B is:
+
+P(B) = 24/25
+
+Therefore, event B has a higher probability than event A.",0.0
+"Answer the following question:
+In a physics class, students were experimenting in pairs, measuring the acceleration of an object sliding down a slope. Each of the six pairs measured the acceleration four times. Here are the results obtained by Emma and Norbi:
+
+Trial 1: $1.9 m/s^2$
+Trial 2: $2.0 m/s^2$
+Trial 3: $1.8 m/s^2$
+Trial 4: $2.3 m/s^2$
+
+Calculate the standard deviation of the four results Emma and Norbi obtained.","To calculate the standard deviation of the four results obtained by Emma and Norbi, we need to follow these steps:
+
+1. Calculate the mean of the four results: 
+
+Mean = (1.9 + 2.0 + 1.8 + 2.3) / 4 = 2.0 m/s^2
+
+2. Calculate the variance of the four results: 
+
+Variance = [(1.9 - 2.0)^2 + (2.0 - 2.0)^2 + (1.8 - 2.0)^2 + (2.3 - 2.0)^2] / 4 = 0.025 m^2/s^4
+
+3. Calculate the standard deviation of the four results: 
+
+Standard deviation = sqrt(Variance) = sqrt(0.025) = 0.158 m/s^2
+
+Therefore, the standard deviation of the four results obtained by Emma and Norbi is 0.158 m/s^2.",2.0
+"Answer the following question:
+In a physics class, students were experimenting in pairs, measuring the acceleration of an object sliding down a slope. Each of the six pairs measured the acceleration four times. Here are the results obtained by Emma and Norbi:
+
+Trial 1: $1.9 m/s^2$
+Trial 2: $2.0 m/s^2$
+Trial 3: $1.8 m/s^2$
+Trial 4: $2.3 m/s^2$
+
+The average of the 20 values obtained by the other five pairs is exactly $1.9 m/s^2$.
+
+What is the average of the 24 results of the six pairs? Round your answer to two decimal places.",The average of the 24 results of the six pairs is $1.9 m/s^2$.,0.0
+"Answer the following question:
+In another experiment, students examined the motion of a ball that had been shot vertically upwards from the ground and then fell back. According to their results, the distance $h$ of the ball from the ground follows the rule $h(t)=6 t-5 t^{2}$, where $t$ is the time passed since the ball has been shot upwards. (Time values are measured in seconds, distances in metres.)
+
+According to the formula above, how high above the ground is the ball 0.5 seconds after it has been shot upwards?","To find the height of the ball 0.5 seconds after it has been shot upwards, we need to substitute $t=0.5$ into the formula $h(t)=6t-5t^2$ and solve for $h$.
+$h(0.5) = 6(0.5) - 5(0.5)^2 = 3 - 1.25 = 1.75$
+Therefore, the ball is 1.75 meters above the ground 0.5 seconds after it has been shot upwards.",2.0
+"Answer the following question:
+In another experiment, students examined the motion of a ball that had been shot vertically upwards from the ground and then fell back. According to their results, the distance $h$ of the ball from the ground follows the rule $h(t)=6 t-5 t^{2}$, where $t$ is the time passed since the ball has been shot upwards. (Time values are measured in seconds, distances in metres.)
+
+How many seconds after it has been shot upwards will the ball reach a height of 1m above the ground?","We want to find the time $t$ when the height of the ball is $1$ metre. We can do this by setting $h(t)$ equal to $1$ and solving for $t$. $\begin{aligned} h(t)&=1 \\\\ 6t-5t^2&=1 \\\\ -5t^2+6t&=1 \\\\ 5t^2-6t+1&=0 \\\\ (5t-1)(t-1)&=0 \\\\ \swarrow &\searrow \\\\ 5t-1=0\text{ or }&t-1=0 \\\\ t=\dfrac15\text{ or }&t=1 \end{aligned}$ We found that the ball will reach a height of $1$ metre after $t=\dfrac15$ seconds or $t=1$ seconds. Since $t=\dfrac15$ seconds is less than $1$ second, the ball will reach a height of $1$ metre after $t=\dfrac15$ seconds. Answer The ball will reach a height of $1$ metre after $t=\dfrac15$ seconds.",3.0
+"Answer the following question:
+The side of a square is 4 cm. Two line segments are drawn into this square such that they trisect one of the right angles of the square.
+
+Calculate the area of the triangle shaded grey in the diagram.","
+
+To solve this problem, we need to find the length of the two line segments that trisect the right angle of the square. Since the side of the square is 4 cm, the length of each side of the square is also 4 cm.
+
+Let's call the length of the two line segments that trisect the right angle of the square ""x"". Then, we can draw a right triangle with one leg of length x and the hypotenuse of length 4 cm. By the Pythagorean theorem, we know that:
+
+x^2 + x^2 = 4^2
+
+Simplifying this equation, we get:
+
+2x^2 = 16
+
+Dividing both sides by 2, we get:
+
+x^2 = 8
+
+Taking the square root of both sides, we get:
+
+x = √8
+
+Now that we know the length of the two line segments, we can find the area of the triangle shaded grey in the diagram. The area of a triangle is given by:
+
+Area = (base x height) / 2
+
+In this case, the base of the triangle is the side of the square that is not trisected by the line segments, which is 4 cm. The height of the triangle is the length of one of the line segments, which is √8 cm.
+
+Substituting these values into the formula for the area of a triangle, we get:
+
+Area = (4 cm x √8 cm) / 2
+
+Simplifying this expression, we get:
+
+Area = 2√8 cm^2
+
+Therefore, the area of the triangle shaded grey in the diagram is 2√8 cm^2.",0.0
+"Answer the following question:
+Select one interior point of a square of the same size and connect it to the four vertices, as seen in the diagram. The triangles obtained will be coloured in either blue, green or yellow. All three colours must be used and each triangle is coloured in a single colour. No adjacent triangles (sharing a common side) may be coloured the same.
+
+In how many different ways can the square be coloured if the above rules are followed?","There are 3 ways to choose the first triangle, 2 ways to choose the second, and 1 way to choose the third, for a total of $3\cdot2\cdot1=\boxed{6}$ ways.",0.0
+"Answer the following question:
+Select one interior point of a square of the same size and connect it to the four vertices, as seen in the diagram.
+
+Consider the sums of the areas of the opposite triangle pairs drawn into the square of side 4 cm.
+
+Prove that the sums of the areas of the opposite triangle pairs are equal, i.e. the total area shaded grey in the diagram is equal to the total white area.","The sum of the areas of the opposite triangle pairs is equal to the area of the square. This is because the square is divided into four equal triangles, and the sum of the areas of any two opposite triangles is equal to the area of the square. Therefore, the total area shaded grey in the diagram is equal to the total white area.",0.0
+"Answer the following question:
+Solve the following equations in the set of real numbers.
+
+$$2 \cdot \sqrt{3 - x} = x + 5$$","We begin by isolating the radical term on one side of the equation, which gives us $2\sqrt{3 - x} - x = 5$. Next, we square both sides, which gives us $4(3 - x) - 4x^2 + x^2 = 25$. Simplifying, we get $-4x^2 - 4x + 13 = 0$. We can then factor this equation as $-(2x - 1)(2x + 13) = 0$. Solving for $x$, we get $x = \frac{1}{2}$ or $x = -\frac{13}{2}$. However, since the square root of a negative number is not a real number, we discard the solution $x = -\frac{13}{2}$. Therefore, the only solution to the equation is $x = \frac{1}{2}$.",0.0
+"Answer the following question:
+Solve the following equations in the set of real numbers.
+
+$$\frac{x}{x+1} + \frac{x^2}{x^2 - 1} = 2$$","First, we can simplify the left-hand side of the equation by finding a common denominator:
+$$\frac{x(x-1) + x^2(x+1)}{(x+1)(x-1)} = 2$$
+Expanding the numerator and simplifying, we get:
+$$\frac{x^2 - x + x^3 + x^2}{x^2 - 1} = 2$$
+$$\frac{x^3 + 2x^2 - x}{x^2 - 1} = 2$$
+Now we can multiply both sides of the equation by the denominator to get rid of the fraction:
+$$x^3 + 2x^2 - x = 2(x^2 - 1)$$
+Expanding the right-hand side and simplifying, we get:
+$$x^3 + 2x^2 - x = 2x^2 - 2$$
+$$x^3 - x - 2 = 0$$
+This is a cubic equation, which can be solved using various methods such as factoring, synthetic division, or the cubic formula. In this case, we can factor the equation as follows:
+$$(x-2)(x^2+x+1) = 0$$
+Therefore, the solutions to the equation are:
+$$x = 2$$
+$$x = \frac{-1 \pm \sqrt{3}i}{2}$$
+where $i$ is the imaginary unit.",0.0
+"Answer the following question:
+The first term of an arithmetic sequence is 18. The sum of the first six terms of the sequence is equal to the sum of the first seven terms.
+
+Show that the sum of the first 13 terms of the sequence is 0 and calculate the 13th term of the sequence.","Let's call the common difference of the arithmetic sequence ""d"". Then, the second term of the sequence is 18 + d, the third term is 18 + 2d, and so on.
+
+The sum of the first six terms of the sequence is:
+
+18 + (18 + d) + (18 + 2d) + (18 + 3d) + (18 + 4d) + (18 + 5d) = 108 + 15d
+
+The sum of the first seven terms of the sequence is:
+
+18 + (18 + d) + (18 + 2d) + (18 + 3d) + (18 + 4d) + (18 + 5d) + (18 + 6d) = 126 + 21d
+
+Since the sum of the first six terms is equal to the sum of the first seven terms, we can set the two expressions equal to each other:
+
+108 + 15d = 126 + 21d
+
+Simplifying, we get:
+
+6d = 18
+
+d = 3
+
+Now we can find the sum of the first 13 terms of the sequence:
+
+18 + (18 + 3) + (18 + 2*3) + ... + (18 + 12*3) = 18 + 21 + 24 + ... + 150
+
+This is an arithmetic series with 13 terms, first term 18, and common difference 3. The sum of an arithmetic series can be found using the formula:
+
+S = n/2 * (a1 + an)
+
+where n is the number of terms, a1 is the first term, and an is the last term. Plugging in the values, we get:
+
+S = 13/2 * (18 + 150) = 13/2 * 168 = 1092
+
+So the sum of the first 13 terms of the sequence is 1092.
+
+To find the 13th term of the sequence, we can use the formula:
+
+an = a1 + (n-1)d
+
+Plugging in the values, we get:
+
+an = 18 + (13-1)3 = 18 + 36 = 54
+
+Therefore, the 13th term of the sequence is 54.",2.0
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+Calculate the total worth, in million forints, of the goods produced in factory A in the next 20 years (from 2019 to 2038) altogether.","In the first year (2019), factory A will produce goods worth 500 * 1.05 = 525 million forints. In the second year (2020), factory A will produce goods worth 525 * 1.05 = 551.25 million forints. In general, the worth of the goods produced by factory A in the nth year will be 500 * (1.05)^(n-1). To calculate the total worth of the goods produced by factory A in the next 20 years, we need to sum up the worth of the goods produced in each of these years. This can be done using the formula for the sum of a geometric series: S = a * (1 - r^n) / (1 - r), where S is the sum, a is the first term, r is the common ratio, and n is the number of terms. In this case, a = 500, r = 1.05, and n = 20. Plugging these values into the formula, we get S = 500 * (1 - 1.05^20) / (1 - 1.05) = 500 * (1 - 1.1238) / (-0.05) = 500 * (-0.1238) / (-0.05) = 1238 million forints. Therefore, the total worth of the goods produced by factory A in the next 20 years will be 1238 million forints.",2.0
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+The above plans were published on an economy website. A debate started in the comment section of the article: one user claimed that the difference between the volumes of production between the two factories would get smaller and smaller in the next couple of years.
+
+Calculate the missing values of the table below and show that the above claim is not true.
+
+| Year | Production volume of factory A (million Ft) | Production volume of factory B (million Ft) |
+|------|--------------------------------------------|---------------------------------------------|
+| 2018 | 500                                        | 400                                         |
+| 2019 |                                            |                                             |
+| 2020 |                                            |                                             |
+| 2021 |                                            |                                             |","To calculate the missing values in the table, we need to use the information provided about the planned production increases for each factory.
+For factory A, the planned increase in production is 5% per year. Therefore, in 2019, the production volume will be 500 million Ft * 1.05 = 525 million Ft. In 2020, the production volume will be 525 million Ft * 1.05 = 551.25 million Ft. In 2021, the production volume will be 551.25 million Ft * 1.05 = 580.31 million Ft.
+For factory B, the planned increase in production is 6% per year. Therefore, in 2019, the production volume will be 400 million Ft * 1.06 = 424 million Ft. In 2020, the production volume will be 424 million Ft * 1.06 = 451.04 million Ft. In 2021, the production volume will be 451.04 million Ft * 1.06 = 482.21 million Ft.
+The table below shows the calculated values:
+
+| Year | Production volume of factory A (million Ft) | Production volume of factory B (million Ft) |
+|------|--------------------------------------------|---------------------------------------------|
+| 2018 | 500                                        | 400                                         |
+| 2019 | 525                                        | 424                                         |
+| 2020 | 551.25                                     | 451.04                                      |
+| 2021 | 580.31                                     | 482.21                                      |
+
+As we can see from the table, the difference between the production volumes of the two factories is not getting smaller and smaller in the next couple of years. In fact, the difference is getting larger, as factory A's production volume is increasing at a faster rate than factory B's production volume.",2.5
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+Calculate the year in which the production volume of factory B will reach the production volume of factory A. (Assuming the increase in production will, in fact, follow the plans.)","In the year 2018, the production volume of factory A was 500 million forints, and the production volume of factory B was 400 million forints.
+In the year 2019, factory A's production volume will increase by 5%, so it will be 500 million * 1.05 = 525 million forints. Factory B's production volume will increase by 6%, so it will be 400 million * 1.06 = 424 million forints.
+In the year 2020, factory A's production volume will increase by 5%, so it will be 525 million * 1.05 = 551.25 million forints. Factory B's production volume will increase by 6%, so it will be 424 million * 1.06 = 449.44 million forints.
+In the year 2021, factory A's production volume will increase by 5%, so it will be 551.25 million * 1.05 = 579.31 million forints. Factory B's production volume will increase by 6%, so it will be 449.44 million * 1.06 = 476.62 million forints.
+In the year 2022, factory A's production volume will increase by 5%, so it will be 579.31 million * 1.05 = 606.84 million forints. Factory B's production volume will increase by 6%, so it will be 476.62 million * 1.06 = 505.34 million forints.
+In the year 2023, factory A's production volume will increase by 5%, so it will be 606.84 million * 1.05 = 637.57 million forints. Factory B's production volume will increase by 6%, so it will be 505.34 million * 1.06 = 533.92 million forints.
+In the year 2024, factory A's production volume will increase by 5%, so it will be 637.57 million * 1.05 = 669.97 million forints. Factory B's production volume will increase by 6%, so it will be 533.92 million * 1.06 = 564.66 million forints.
+In the year 2025, factory A's production volume will increase by 5%, so it will be 669.97 million * 1.05 = 703.47 million forints. Factory B's production volume will increase by 6%, so it will be 564.66 million * 1.06 = 597.47 million forints.
+In the year 2026, factory A's production volume will increase by 5%, so it will be 703.47 million * 1.05 = 740.21 million forints. Factory B's production volume will increase by 6%, so it will be 597.47 million * 1.06 = 630.66 million forints.
+In the year 2027, factory A's production volume will increase by 5%, so it will be 740.21 million * 1.05 = 777.11 million forints. Factory B's production volume will increase by 6%, so it will be 630.66 million * 1.06 = 667.37 million forints.
+In the year 2028, factory A's production volume will increase by 5%, so it will be 777.11 million * 1.05 = 819.62 million forints. Factory B's production volume will increase by 6%, so it will be 667.37 million * 1.06 = 706.96 million forints.
+In the year 2029, factory A's production volume will increase by 5%, so it will be 819.62 million * 1.05 = 867.03 million forints. Factory B's production volume will increase by 6%, so it will be 706.96 million * 1.06 = 748.62 million forints.
+In",0.0
+"Answer the following question:
+Magic Spheres dessert is sold in boxes that have a shape of a regular hexagon-based prism. Each edge of the regular hexagonal base is 5 cm long and the height of the box is 3 cm. The box contains 6 chocolate balls, each has a diameter of 2.8 cm.
+
+What percentage of the volume of the box is the volume of the chocolate?","The volume of the box is given by the formula for the volume of a prism: V = Bh, where B is the area of the base and h is the height. The area of the base is given by the formula for the area of a regular hexagon: A = 3√3s^2/2, where s is the length of one edge. Plugging in the values given, we get A = 3√3(5)^2/2 = 37.5√3 cm^2. The volume of the box is then V = Bh = 37.5√3 cm^2 * 3 cm = 112.5√3 cm^3.
+The volume of each chocolate ball is given by the formula for the volume of a sphere: V = 4/3πr^3, where r is the radius. Plugging in the value given, we get V = 4/3π(1.4)^3 = 10.37 cm^3. The total volume of the 6 chocolate balls is then 6 * 10.37 cm^3 = 62.22 cm^3.
+To find the percentage of the volume of the box that is the volume of the chocolate, we divide the volume of the chocolate by the volume of the box and multiply by 100: (62.22 cm^3 / 112.5√3 cm^3) * 100 = 54.3%. So, the volume of the chocolate makes up approximately 54.3% of the volume of the box.",5.0
+"Answer the following question:
+Chocolate balls in Magic Spheres dessert are individually wrapped in either gold or red wrapping foil. The sorting machine randomly drops the chocolate balls into the boxes, the probability of a red one is $\frac{1}{3}$, the probability of a gold one is $\frac{2}{3}$, a total six chocolate balls in each box.
+
+Calculate the probability that at least 5 of the 6 chocolate balls in a box will be wrapped in gold foil.","There are two ways in which we can have at least 5 gold balls in a box.  Either all 6 balls are gold, or there are 5 gold balls and one red ball.  The probability that all 6 balls are gold is $\left(\frac{2}{3}\right)^6=\frac{64}{729}$.  The probability that there are 5 gold balls is $\binom{6}{5}\left(\frac{2}{3}\right)^5\left(\frac{1}{3}\right)=\frac{48}{729}$.  Therefore, the total probability is $\frac{64}{729}+\frac{48}{729}=\boxed{\frac{112}{729}}$.",4.0
+"Answer the following question:
+Each side of the regular hexagon $ABCDEF$ is 5 cm long. The hexagon is rotated around the perpendicular bisector of side $AB$.
+
+Calculate the volume of the resulting solid.","Let $O$ be the center of the hexagon, so that $OA=OB=OC=OD=OE=OF=5$ cm.  The radius of the sphere is 5 cm, so the volume of the sphere is \[
+\frac{4}{3}\pi(5^3)=\frac{500}{3}\pi.
+\]The solid consists of the part of the sphere inside the hexagonal pyramid, which we can view as a regular tetrahedron with side length 10.  The volume of a regular tetrahedron with side length $s$ is \[
+\frac{1}{3}s^3.
+\]Thus the volume of the solid is \[
+\frac{1}{3}(10^3)-\frac{4}{3}\pi(5^3)=\boxed{375-\frac{500}{3}\pi}.
+\]",0.0

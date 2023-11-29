@@ -1,0 +1,8 @@
+* text eol=lf
+*.ipynb linguist-detectable=false
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary

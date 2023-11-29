@@ -1,0 +1,720 @@
+prompt,answer,Points
+"Answer the following question:
+Given are two sets: $A=\{a ; b ; e ; g\}$ and $B=\{a ; b ; c ; d ; f\}$.
+
+By listing its elements, give the set $B \backslash A$.","The set $B \backslash A$ is the set of all elements of $B$ that are not in $A$. By listing its elements, we have:
+
+$B \backslash A = \{c, d, f\}$",2.0
+"Answer the following question:
+Bori, Kristóf and Marci are playing a role-playing card game. At the beginning of the game they each select one out of 10 role cards, without replacement. In how many different arrangements of the roles can the game begin?","To find the number of different arrangements of the roles, we can use the multiplicative formula for combinations. Since there are 10 role cards and each person can choose any card, we can find the number of different arrangements by multiplying the number of choices for each person.
+
+First, we find the number of choices for each person by using the formula:
+
+Number of choices = Number of role cards - 1
+
+So, Bori has 10 - 1 = 9 choices, Kristóf has 10 - 1 = 9 choices, and Marci has 10 - 1 = 9 choices.
+
+Now, we multiply the number of choices for each person to find the total number of different arrangements:
+
+Total number of arrangements = 9 * 9 * 9 = 729
+
+So, in 729 different arrangements the game can begin.",0.0
+"Answer the following question:
+Zita's salary has been raised from $275000$ Ft to $308000$ Ft. By what percentage has Zita's salary been raised?","To calculate the percentage increase in Zita's salary, we first need to find the difference between her new and old salaries.
+
+Difference = New salary - Old salary
+Difference = 308000 Ft - 275000 Ft
+Difference = 33000 Ft
+
+Now, we can calculate the percentage increase by dividing the difference by the old salary and multiplying by 100%.
+
+Percentage increase = (Difference / Old salary) * 100%
+Percentage increase = (33000 Ft / 275000 Ft) * 100%
+Percentage increase = 0.1203125 * 100%
+Percentage increase = 12.03125%
+
+So, Zita's salary has been raised by 12.03125%.",1.0
+"Answer the following question:
+In triangle $A B C \overrightarrow{A B}=\mathbf{b}, \overrightarrow{A C}=\mathbf{c}$. The midpoint of side $A B$ is point $F$, the midpoint of side $A C$ is $G$. Express vector $\overrightarrow{F G}$ in terms of vectors $\mathbf{b}$ and $\mathbf{c}$. Explain your answer.","To express the vector $\overrightarrow{FG}$ in terms of vectors $\mathbf{b}$ and $\mathbf{c}$ we can use the fact that the midpoints of the sides are also the perpendicular bisectors of the opposite sides. This means that the angle $\angle BAC$ is a right angle. We can also use the fact that the midpoints of the sides are also the points of concurrence of the altitudes of the triangle.
+
+Let $\overrightarrow{AB} = \mathbf{b}$ and $\overrightarrow{AC} = \mathbf{c}$. Since $\angle BAC$ is a right angle, we can use the Pythagorean theorem to find the length of $\overrightarrow{FG}$.
+
+Consider the triangles $\triangle ABF$ and $\triangle AGC$. Since $F$ and $G$ are the midpoints of $AB$ and $AC$, respectively, the altitudes of these triangles from $F$ and $G$ to $C$ and $B$, respectively, are equal in length. Let this common altitude be $h$.
+
+Since the altitudes of a triangle from the same vertex to the other two vertices are perpendicular and of equal length, the triangles $\triangle ABF$ and $\triangle AGC$ are similar. This means that the lengths of their respective sides are in a proportional relationship. In particular, the length of $FG$ is equal to half the length of the altitude $h$.
+
+We can now use the Pythagorean theorem to find the length of $h$:
+
+$$h^2 = \frac{1}{4} \cdot (b - c)^2$$
+
+Since $h$ is equal to the length of $FG$, we can express the length of $FG$ as:
+
+$$FG = \sqrt{\frac{1}{4} \cdot (b - c)^2}$$
+
+Now, to express the vector $\overrightarrow{FG}$ in terms of vectors $\mathbf{b}$ and $\mathbf{c}$, we can use the fact that:
+
+$$\overrightarrow{FG} = \frac{1}{2} \cdot (\mathbf{b} - \mathbf{c})$$
+
+Since $\overrightarrow{FG}$ and $\mathbf{b} - \mathbf{c}$ have the same length and share the same direction, we can conclude that:
+
+$$\overrightarrow{FG} = \frac{1}{2} \cdot \mathbf{b} - \frac{1}{2} \cdot \mathbf{c}$$
+
+This is the vector representation of $\overrightarrow{FG}$ in terms of vectors $\mathbf{b}$ and $\mathbf{c}$.",0.0
+"Answer the following question:
+Give five positive numbers such that their median is 3 and their range is 7 .","The median is the middle value of a set of numbers when they are arranged in ascending or descending order. The range is the difference between the highest and lowest numbers in a set.
+
+To find five positive numbers such that their median is 3 and their range is 7, we can follow these steps:
+
+1. Choose a value for the lowest number. Let's say the lowest number is 1.
+2. Choose a value for the highest number. Let's say the highest number is 11.
+3. Calculate the range: 11 - 1 = 10.
+4. Adjust the highest and lowest numbers to maintain the range at 7. Let's add or subtract 3 from the highest and lowest numbers to get 8 and 0.
+5. Calculate the new range: 8 - 0 = 8.
+6. Adjust the highest and lowest numbers to maintain the range at 7. Let's add or subtract 1 from the highest and lowest numbers to get 9 and -1.
+7. Calculate the new range: 9 + 1 = 10.
+
+At this point, we have the following five positive numbers: 1, 2, 3, 9, and 10. The median is 3, and the range is 7.",0.0
+"Answer the following question:
+Determine the decimal (base 10) value of the binary (base 2) number 101011.","To determine the decimal (base 10) value of the binary (base 2) number 101011, you need to perform a binary-to-decimal conversion. This can be done by following these steps:
+
+1. Start with the rightmost digit (the one on the far right) and count the number of 1s it has. In this case, the rightmost digit is a 1, so there is 1 1 (binary) or 2 (decimal).
+
+2. Move to the next digit to the left (the one on the far left) and count the number of 1s it has. In this case, the next digit is a 1, so there are 2 1s (binary) or 2 x 2 = 4 (decimal).
+
+3. Continue moving to the left, counting the number of 1s in each digit and multiplying the decimal value by the appropriate power of 2 (2^n, where n is the number of 1s in the digit).
+
+4. If the digit is a 0, skip it.
+
+Following these steps, we have:
+
+- Rightmost digit: 1 (binary) => 2 (decimal)
+- Second from right: 1 (binary) => 2^1 = 2 (decimal)
+- Third from right: 1 (binary) => 2^2 = 4 (decimal)
+- Fourth from right: 1 (binary) => 2^3 = 8 (decimal)
+- Fifth from right: 0 (binary) => 0 (decimal)
+
+Now, add up all the decimal values to get the final result: 2 + 2 + 4 + 8 + 0 = 16.
+
+So, the decimal (base 10) value of the binary (base 2) number 101011 is 16.",0.0
+"Answer the following question:
+It is known that $\log_{2}(x)=5$. Give the value of $\log_{2}(2x)$. Explain your answer.","To find the value of $\log_{2}(2x)$, we can use the property of logarithms: $\log_{a}(b) = \log_{a}(c)$ if $b = c$. In this case, we have $x = 2x$.
+
+Since $\log_{2}(x) = 5$, we can substitute this value into the expression for $\log_{2}(2x)$:
+
+$$\log_{2}(2x) = \log_{2}(2x) = \log_{2}(2\cdot 2^5) = \log_{2}(2^6) = \log_{2}(64) = 6$$
+
+So, the value of $\log_{2}(2x)$ is 6.",2.0
+"Answer the following question:
+List all integer values of $x$ for which both of the inequalities $-6 \leq x \leq 2$ and $-4<x<10$ are true.","To find the integers $x$ that satisfy both inequalities, we can start by finding the intersection of the two intervals. The intersection is the range of $x$ values that are both less than or equal to $2$ and greater than $-4$.
+
+$-6 \leq x \leq 2$:
+$-6 \leq x < -4$
+$-4 < x \leq 2$
+
+Now, we can find the intersection of these two intervals:
+
+$-4 < x < -6$
+
+This means that the integers $x$ that satisfy both inequalities are $-3, -2, -1, 0$.",0.0
+"Answer the following question:
+Sixteen teams have signed up for the school indoor football championship. In how many different ways can the two teams playing the opening game be selected?","To find the number of different ways the two teams playing the opening game can be selected, we can use the combination formula. Combinations are the number of ways to choose r elements from a set of n elements without regard to order.
+
+In this case, we have 16 teams and we want to choose 2 teams without regard to order. So we can use the formula:
+
+combinations = n! / (r!(n-r)!)
+
+Where n = 16 (the number of teams) and r = 2 (the number of teams to choose).
+
+Plugging in the values, we get:
+
+combinations = 16! / (2!(16-2)!)
+combinations = 16! / (2!14!)
+combinations = (16 * 15 * 14!)/(2 * 14!)
+combinations = (16 * 15)/2
+combinations = 120
+
+So, in 120 different ways can the two teams playing the opening game be selected.",2.0
+"Answer the following question:
+The sides of the right triangle $A B C$ are $a=7, b=24, c=25$ units long. Calculate the length of the height that belongs to the hypotenuse. Explain your answer.","To calculate the height of a right triangle, we can use the Pythagorean theorem. The Pythagorean theorem states that in a right triangle, the sum of the squares of the lengths of the legs (opposite and adjacent) is equal to the square of the length of the hypotenuse.
+
+In this case, the triangle has sides $a = 7$, $b = 24$, and $c = 25$. We want to find the length of the height that belongs to the hypotenuse, which is $c$.
+
+Applying the Pythagorean theorem to this triangle, we have:
+
+$$a^2 + b^2 = c^2$$
+
+$$7^2 + 24^2 = 25^2$$
+
+$$49 + 576 = 625$$
+
+$$625 = 625$$
+
+Since the equation is true, the height that belongs to the hypotenuse is $c = 25$ units long.",0.0
+"Answer the following question:
+Given is line $e: 5 x-y=7$. Give one normal vector of line $e$.","To find a normal vector of a line $e: ax + by = c$ in the $x$-$y$ plane, we can use the following formula:
+
+Normal vector: $N = (a, -b)$
+
+In the given line $e: 5x - y = 7$, we have $a = 5$ and $b = -1$. So, the normal vector of the line $e$ is:
+
+$N = (5, -(-1)) = (5, 1)$
+
+Hence, one normal vector of line $e$ is $(5, 1)$.",0.0
+"Answer the following question:
+Given is line $e: 5 x-y=7$. Give the equation of the line that passes through the point $P(3 ; 2)$ and is parallel to line $e$.","To find the equation of a line parallel to a given line, you can use the following method:
+1. Find the slope of the given line.
+2. The slope of the parallel line will be the same.
+3. Use the point and the slope to find the equation of the parallel line.
+
+In this case, the given line is $e: 5x - y = 7$. To find the slope, we can use the following formula:
+
+slope = (y2 - y1) / (x2 - x1)
+
+Where (x1, y1) are the coordinates of a point on the line and (x2, y2) are the coordinates of the same point but on the x-axis.
+
+In this case, the point is (3, 2) and the line is the y-axis. So, (x1, y1) = (3, 2) and (x2, y2) = (0, 0).
+
+slope = (2 - 0) / (3 - 0) = 2 / 3
+
+Now, we know the slope of the line is 2/3. We also know that the point is (3, 2). So, the equation of the parallel line is:
+
+y - 2 = 2/3 * (x - 3)
+
+Now, we can simplify the equation:
+
+y - 2 = (2/3)x - 2
+
+y = (2/3)x
+
+So, the equation of the line that passes through the point $P(3 ; 2)$ and is parallel to line $e$ is:
+
+(2/3)x - y = 0",0.0
+"Answer the following question:
+Function $f$ below is defined over the set of non-negative real numbers. Functions $g$ and $h$ are defined over the set of real numbers. 
+$$f(x)=\sqrt{x}-2 \quad g(x)=(x-2)^{2}-3 \quad h(x)=2 \sin x$$
+
+For which function is the following statement true: The minimum value of the function is (-2).","To find the minimum value of a function, we need to find the critical points of the function and check if they are minima or maxima.
+
+For function $f(x) = \sqrt{x} - 2$, we need to find the critical points where the derivative is $0$. The derivative of $f(x)$ is given by:
+
+$$f'(x) = \frac{1}{2\sqrt{x}} - 0 = \frac{1}{2\sqrt{x}}$$
+
+The critical points are given by the roots of $f'(x)$:
+
+$$\frac{1}{2\sqrt{x}} = 0$$
+
+There are no real roots, so there are no critical points. This means that the function $f(x)$ has no local minima or maxima.
+
+For function $g(x) = (x - 2)^2 - 3$, the derivative is given by:
+
+$$g'(x) = 2(x - 2)$$
+
+The critical points are given by the roots of $g'(x)$:
+
+$$2(x - 2) = 0$$
+
+The only critical point is $x = 2$. To check if it is a minimum or maximum, we can evaluate the function at the critical point:
+
+$$g(2) = (2 - 2)^2 - 3 = 0 - 3 = -3$$
+
+Since the function is negative at the critical point, it is a minimum.
+
+For function $h(x) = 2\sin x$, the derivative is given by:
+
+$$h'(x) = 2\cos x$$
+
+The critical points are given by the roots of $h'(x)$:
+
+$$2\cos x = 0$$
+
+The only critical point is $x = \pi/2$. To check if it is a minimum or maximum, we can evaluate the function at the critical point:
+
+$$h(\pi/2) = 2\sin(\pi/2) = 2\cdot 1 = 2$$
+
+Since the function is positive at the critical point, it is a maximum.
+
+In conclusion, the minimum value of $g(x)$ is $-3$.",0.0
+"Answer the following question:
+Function $f$ below is defined over the set of non-negative real numbers. Functions $g$ and $h$ are defined over the set of real numbers. 
+$$f(x)=\sqrt{x}-2 \quad g(x)=(x-2)^{2}-3 \quad h(x)=2 \sin x$$
+
+For which function is the following statement true: The function has at least two zeros.","For the function $f(x) = \sqrt{x} - 2$, the statement is true. The function has at least two zeros because it is continuous from the non-negative reals to the non-negative reals, and it takes the value $0$ at $x = 4$ and $x = 16$. Therefore, it must have at least two more zeros between these values.",0.0
+"Answer the following question:
+The numbers $1,2,3,4,5$ and 6 have been written on a sheet of paper. Any two of these numbers are connected with a line (edge) if and only if one number is a divisor of the other (none of the numbers are connected to themselves). This will give a 6-point graph. 
+
+Draw this graph.","I'm sorry, but the nature of this question is such that it is difficult or impossible to provide a visual representation. However, I can describe the process of creating such a graph.
+
+First, write the numbers 1 through 6 on a sheet of paper, as indicated.
+
+Next, consider the divisor relationships between these numbers. For example, 2 is a divisor of both 4 and 6, so draw an edge between 2 and 4, and also between 2 and 6. Similarly, 3 is a divisor of 9, so draw an edge between 3 and 9.
+
+Continue in this manner, considering all possible divisor relationships between the numbers. When you're done, you should have a 6-point graph with edges connecting numbers that are divisors of each other.
+
+This will result in a graph that looks like a tangled web of lines, with each number being connected to other numbers through divisor relationships. Unfortunately, it's not possible to create a visual representation of this graph within the confines of this platform.",0.0
+"Answer the following question:
+Determine the truth value of the following two statements (true or false). Explain your answer.
+
+I. There exists a positive integer that has exactly 4 positive divisors.
+
+II. If the integer $n$ is not a divisor of the integer $m$ then $n$ and $m$ are relative primes (co-primes).","Let's analyze both statements:
+
+I. There exists a positive integer that has exactly 4 positive divisors.
+
+This statement is false. A positive integer with exactly 4 positive divisors would need to be a multiple of 1, 2, 4, and 8. However, these numbers all have more than 4 divisors. For example, 4 is a multiple of 1, 2, 4, and any power of 4.
+
+II. If the integer $n$ is not a divisor of the integer $m$ then $n$ and $m$ are relative primes (co-primes).
+
+This statement is true. If $n$ is not a divisor of $m$, then $n$ and $m$ have no common factors other than 1. In other words, they are co-prime, or relative primes.
+
+So, the truth values of these statements are:
+
+I. False
+II. True",0.0
+"Answer the following question:
+Consider the following two events:
+
+A: Roll a fair gambling dice once, the number shown is a divisor of 24.
+
+B: Roll a fair gambling dice twice, none of the numbers shown is a 6 .
+
+Which of the two events has a higher probability?","Event A has a higher probability.
+
+Event A: Rolling a fair gambling dice once, the number shown is a divisor of 24. There are 24 divisors: 1, 2, 3, 4, 6, 8, 12, 24. There are 6 sides to a fair dice, so the probability of Event A is 24 divisors / 6 sides = 4 divisors per side.
+
+Event B: Rolling a fair gambling dice twice, none of the numbers shown is a 6. There are 6 x 6 = 36 possible combinations of two rolls. To ensure none of the numbers shown is a 6, you can have 6 combinations of (not a 6, not a 6) (e.g., (1, 5), (2, 4), (3, 3), (4, 2), (5, 1), (6, 6). Thus, the probability of Event B is 6 combinations of (not a 6, not a 6) / 36 possible combinations = 1/6.
+
+Therefore, the probability of Event A (4 divisors per side) is higher than the probability of Event B (1/6).",3.0
+"Answer the following question:
+In a physics class, students were experimenting in pairs, measuring the acceleration of an object sliding down a slope. Each of the six pairs measured the acceleration four times. Here are the results obtained by Emma and Norbi:
+
+Trial 1: $1.9 m/s^2$
+Trial 2: $2.0 m/s^2$
+Trial 3: $1.8 m/s^2$
+Trial 4: $2.3 m/s^2$
+
+Calculate the standard deviation of the four results Emma and Norbi obtained.","To calculate the standard deviation, we first need to find the mean of the four results. The mean is calculated by adding all the values and then dividing by the number of values. In this case, the mean is:
+
+(1.9 + 2.0 + 1.8 + 2.3) / 4 = 8.0 / 4 = 2.0 m/s^2
+
+Now, we will calculate the variance, which is the average of the squared differences from the mean. In this case, the variance is:
+
+(1.9^2 + 2.0^2 + 1.8^2 + 2.3^2) / 4 = (3.61 + 4.00 + 3.24 + 5.29) / 4 = 16.14 / 4 = 4.035 m/s^4
+
+Finally, we will calculate the standard deviation, which is the square root of the variance. In this case, the standard deviation is:
+
+sqrt(4.035) = 2.01 m/s^2
+
+So, the standard deviation of the four results obtained by Emma and Norbi is 2.01 m/s^2.",1.0
+"Answer the following question:
+In a physics class, students were experimenting in pairs, measuring the acceleration of an object sliding down a slope. Each of the six pairs measured the acceleration four times. Here are the results obtained by Emma and Norbi:
+
+Trial 1: $1.9 m/s^2$
+Trial 2: $2.0 m/s^2$
+Trial 3: $1.8 m/s^2$
+Trial 4: $2.3 m/s^2$
+
+The average of the 20 values obtained by the other five pairs is exactly $1.9 m/s^2$.
+
+What is the average of the 24 results of the six pairs? Round your answer to two decimal places.","To find the average of the 24 results, we first need to calculate the average of the six pairs. We will then add the average of the six pairs to the result of Emma and Norbi.
+
+The average of the six pairs is the average of the 5 other pairs, which is 1.9 m/s^2.
+
+Now, we add the average of the six pairs for Emma and Norbi, which is 2.0 m/s^2.
+
+The total average of the 24 results is the average of the six pairs for Emma and Norbi, which is 2.0 m/s^2.
+
+Rounding the answer to two decimal places, the average of the 24 results is 2.0 m/s^2.",0.0
+"Answer the following question:
+In another experiment, students examined the motion of a ball that had been shot vertically upwards from the ground and then fell back. According to their results, the distance $h$ of the ball from the ground follows the rule $h(t)=6 t-5 t^{2}$, where $t$ is the time passed since the ball has been shot upwards. (Time values are measured in seconds, distances in metres.)
+
+According to the formula above, how high above the ground is the ball 0.5 seconds after it has been shot upwards?","To find the height of the ball 0.5 seconds after it has been shot upwards, we can plug the value of t = 0.5 into the formula for h(t).
+
+h(t) = 6t - 5t^2
+h(0.5) = 6(0.5) - 5(0.5)^2
+h(0.5) = 3 - 0.125
+h(0.5) = 2.875
+
+So, the ball is 2.875 meters high above the ground 0.5 seconds after it has been shot upwards.",1.0
+"Answer the following question:
+In another experiment, students examined the motion of a ball that had been shot vertically upwards from the ground and then fell back. According to their results, the distance $h$ of the ball from the ground follows the rule $h(t)=6 t-5 t^{2}$, where $t$ is the time passed since the ball has been shot upwards. (Time values are measured in seconds, distances in metres.)
+
+How many seconds after it has been shot upwards will the ball reach a height of 1m above the ground?","We need to solve the equation $h(t) = 1$ metre, where $h(t) = 6 t - 5 t^2$.
+
+To do this, we first need to find the maximum value of $h(t)$. We can do this by taking the first derivative of $h(t)$ with respect to $t$ and setting it equal to $0$:
+
+$\frac{dh(t)}{dt} = 6 - 10 t = 0$
+
+This gives us $t = \frac{3}{5}$ seconds.
+
+Now, we can plug this value back into the equation for $h(t)$ to find the height of the ball:
+
+$h(\frac{3}{5}) = 6 \cdot \frac{3}{5} - 5 \cdot (\frac{3}{5})^2 = 1$
+
+So, the ball will reach a height of 1 metre above the ground 4.5 seconds after it has been shot upwards.",1.0
+"Answer the following question:
+The side of a square is 4 cm. Two line segments are drawn into this square such that they trisect one of the right angles of the square.
+
+Calculate the area of the triangle shaded grey in the diagram.","To trisect a right angle, two line segments are drawn such that they form a 30-60-90 triangle. In this case, the square side of 4 cm is used as the base of the triangle.
+
+The triangle is a right triangle with a 30-60-90 angle configuration. The right angle is trisected by the two line segments. The triangle has two acute angles of 30 and 60 degrees.
+
+To calculate the area of the triangle, we can use the formula for a right triangle:
+
+Area = (base * height) / 2
+
+In this case, the base of the triangle is 4 cm (the side of the square) and the height can be found using the trigonometric function tangent. For a 30-60-90 triangle, the height is equal to the square root of (base * square of the acute angle).
+
+In this case, the height is:
+
+height = sqrt(4 * (sqrt(3)) / 2) = 2 * sqrt(3)
+
+Now we can use the formula to calculate the area:
+
+Area = (4 * 2 * sqrt(3)) / 2 = 4 * sqrt(3)
+
+The area of the triangle shaded grey in the diagram is 4 * sqrt(3) square centimeters.",1.0
+"Answer the following question:
+Select one interior point of a square of the same size and connect it to the four vertices, as seen in the diagram. The triangles obtained will be coloured in either blue, green or yellow. All three colours must be used and each triangle is coloured in a single colour. No adjacent triangles (sharing a common side) may be coloured the same.
+
+In how many different ways can the square be coloured if the above rules are followed?","To colour the square according to the given rules, we can consider the triangles as we connect the interior point to the vertices. Since the triangles must have different colours, we can assign the colours in a way that ensures this.
+
+1. Colour the triangle formed by the interior point and one vertex (say A) in blue.
+2. Colour the triangle formed by the interior point, vertex A and a second vertex (say B) in green.
+3. Colour the remaining triangle (formed by the interior point, vertex B and the third vertex, say C) in yellow.
+
+Now, we need to ensure that no two adjacent triangles have the same colour. To achieve this, we can assign the colours in a cyclic manner, as follows:
+
+1. Blue -> Green -> Yellow -> Blue (starting from any vertex)
+2. Green -> Yellow -> Blue -> Green (starting from any vertex)
+3. Yellow -> Blue -> Green -> Yellow (starting from any vertex)
+
+There are 3 ways to assign colours to the triangles, and each assignment is cyclic. So, the total number of different ways to colour the square according to the given rules is 3 * 3 = 9.",0.0
+"Answer the following question:
+Select one interior point of a square of the same size and connect it to the four vertices, as seen in the diagram.
+
+Consider the sums of the areas of the opposite triangle pairs drawn into the square of side 4 cm.
+
+Prove that the sums of the areas of the opposite triangle pairs are equal, i.e. the total area shaded grey in the diagram is equal to the total white area.","Let's first label the vertices of the square as follows: A(1, 1), B(1, 3), C(3, 3), and D(3, 1). The interior point is labeled as E.
+
+Now, let's calculate the areas of the triangles OAE, OAB, OAC, and OAD. The triangles OAE, OAB, OAC, and OAD are formed by drawing perpendicular lines from the center of the square (O) to the opposite sides.
+
+Area of triangle OAE = (1/2) * 4 * 1 = 2 square cm
+Area of triangle OAB = (1/2) * 4 * 2 = 4 square cm
+Area of triangle OAC = (1/2) * 4 * 2 = 4 square cm
+Area of triangle OAD = (1/2) * 4 * 1 = 2 square cm
+
+Now, let's calculate the areas of the triangles OBE, OBC, OCD, and ODE. The triangles OBE, OBC, OCD, and ODE are formed by drawing perpendicular lines from the center of the square (O) to the opposite sides, but this time, the lines are drawn from the opposite vertices.
+
+Area of triangle OBE = (1/2) * 3 * 1 = 1.5 square cm
+Area of triangle OBC = (1/2) * 3 * 2 = 3 square cm
+Area of triangle OCD = (1/2) * 3 * 2 = 3 square cm
+Area of triangle ODE = (1/2) * 3 * 1 = 1.5 square cm
+
+Now, let's calculate the areas of the triangles OCE and OCE. The triangles OCE and OCE are formed by drawing perpendicular lines from the center of the square (O) to the opposite sides, but this time, the lines are drawn from the opposite vertices.
+
+Area of triangle OCE = (1/2) * 3 * 1 = 1.5 square cm
+Area of triangle OCE = (1/2) * 3 * 3 = 4.5 square cm
+
+Now, let's calculate the areas of the remaining triangles: OBCE and OCDE. The triangles OBCE and OCDE are formed by drawing perpendicular lines from the center of the square (O) to the opposite sides, but this time, the lines are drawn from the opposite vertices.
+
+Area of triangle OBCE = (1/2) * 4.5 * 1 = 2.25 square cm
+Area of triangle OCDE = (1/2) * 4.5 * 3 = 6.75 square cm
+
+Now, let's calculate the areas of the triangles OABE and OADE. The triangles OABE and OADE are formed by drawing perpendicular lines from the center of the square (O) to the opposite sides, but this time, the lines are drawn from the opposite vertices.
+
+Area of triangle OABE = (1/2) * 4 * 1.5 = 3 square cm
+Area of triangle OADE = (1/2) * 4 * 1.5 = 3 square cm
+
+Now, let's calculate the areas of the triangles OACD and OBCD. The triangles OACD and OBCD are formed by drawing perpendicular lines from the center of the square (O) to the opposite sides, but this time, the lines are drawn from the opposite vertices.
+
+Area of triangle OACD = (1/2) * 4 * 3 = 6 square cm
+Area of triangle OBCD = (1/2) * 4 * 3 = 6 square cm
+
+Now, let's calculate the area of the square, which is 4 cm x 4 cm = 16 square cm.
+
+The total area of the triangles is: 2 + 4 + 4 + 2 + 1.5 + 3 + 1.5 + 3 + 6 + 6 + 2.25 + 6.75 + 3 + 3 = 52.75 square cm.
+
+The total area of the squares is: 1",0.0
+"Answer the following question:
+Solve the following equations in the set of real numbers.
+
+$$2 \cdot \sqrt{3 - x} = x + 5$$","To solve the given equation, we first need to isolate the square root term. We can do this by subtracting $2 \cdot \sqrt{3 - x}$ from both sides of the equation. This will give us:
+
+$$2 \cdot \sqrt{3 - x} - x - 5 = 0$$
+
+Now, we can use the quadratic formula to solve for $x$:
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+In this case, $a = 2$, $b = -(x + 5)$, and $c = \sqrt{3 - x}$. Substituting these values into the formula, we get:
+
+$$x = \frac{(x + 5) \pm \sqrt{(x + 5)^2 - 4 \cdot 2 \cdot \sqrt{3 - x}}}{4}$$
+
+To make the equation more manageable, let's square both sides of the equation:
+
+$$x^2 = (x + 5)^2 - 4 \cdot 2 \cdot \sqrt{3 - x}$$
+
+Now, we can use the AM-GM inequality to find the minimum value of the expression:
+
+$$x^2 \geq (x + 5)^2 - 4 \cdot 2 \cdot \sqrt{3 - x}$$
+
+To do this, we can use the fact that $x^2$ is the area of a square with side length $x$ and $(x + 5)^2$ is the area of a rectangle with sides $x$ and $5$. The AM-GM inequality states that the sum of two positive terms is always greater than the product of the terms, and the sum of the squares of the terms is always greater than the product of the squares of the terms. In this case, we have:
+
+$$x^2 \geq (x + 5)^2 - 4 \cdot 2 \cdot \sqrt{3 - x}$$
+
+$$x^2 - (x + 5)^2 + 4 \cdot 2 \cdot \sqrt{3 - x} \geq 0$$
+
+$$-(x + 5)^2 + 4 \cdot 2 \cdot \sqrt{3 - x} \leq 0$$
+
+$$(x + 5)^2 - 4 \cdot 2 \cdot \sqrt{3 - x} \geq 0$$
+
+Now, we can square both sides of the equation to get:
+
+$$(x + 5)^2 - 4 \cdot 2 \cdot \sqrt{3 - x} = (x + 5 + 2 \cdot \sqrt{3 - x})(x + 5 - 2 \cdot \sqrt{3 - x})$$
+
+Since the coefficient of $\sqrt{3 - x}$ is negative, we know that the minimum value of the expression is achieved when $\sqrt{3 - x} = 0$. This means that $3 - x = 0$, or $x = 3$.
+
+So, the solution to the given equation is $x = 3$.",0.0
+"Answer the following question:
+Solve the following equations in the set of real numbers.
+
+$$\frac{x}{x+1} + \frac{x^2}{x^2 - 1} = 2$$","To solve the given equation, we will follow the steps below:
+
+1. Clear the denominators by multiplying both sides of the equation by the least common multiple (LCM) of the denominators.
+
+LCM of $(x+1)$ and $(x^2-1)$ is $(x+1)(x-1)$.
+
+So, the equation becomes:
+
+$$x(x-1) \left( \frac{x+1}{x+1} + \frac{x^2}{x^2-1} \right) = 2(x+1)(x-1)$$
+
+2. Distribute the right-hand side:
+
+$$x(x-1) \left( \frac{x+1}{x+1} + \frac{x^2}{x^2-1} \right) = 2(x+1)(x-1)$$
+
+$$x(x-1) \left( \frac{2x}{x^2-1} \right) = 2(x+1)(x-1)$$
+
+3. Simplify the equation:
+
+$$x(x-1) \left( \frac{2x}{(x+1)(x-1)} \right) = 2(x+1)(x-1)$$
+
+$$x(x-1) \left( \frac{2x}{(x+1)(x-1)} \right) = 2(x+1)(x-1)$$
+
+$$2x = 2x + 2$$
+
+4. Solve the equation for $x$:
+
+$$x = 2$$
+
+So, the solution to the given equation is $x = 2$.",2.0
+"Answer the following question:
+The first term of an arithmetic sequence is 18. The sum of the first six terms of the sequence is equal to the sum of the first seven terms.
+
+Show that the sum of the first 13 terms of the sequence is 0 and calculate the 13th term of the sequence.","Let's first find the common difference of the arithmetic sequence. The sum of the first six terms is equal to the sum of the first seven terms, so we have:
+
+(a + a + d) + (a + d + d) + (a + 2d) + (a + 3d) + (a + 4d) + (a + 5d) = (a + a + 6d) + (a + 7d)
+
+Where a is the first term and d is the common difference.
+
+Now, we can solve for d:
+
+6a + 20d = 7a + 6d
+
+Subtracting 6a from both sides:
+
+20d = 7d
+
+Dividing by 7:
+
+d = 2
+
+So the arithmetic sequence has a common difference of 2. Now we can find the 13th term of the sequence:
+
+a + (13 - 1) * d = 18 + (13 - 1) * 2 = 18 + 24 = 42
+
+The 13th term is 42.
+
+Now let's find the sum of the first 13 terms:
+
+13 * a + (13 * (13 - 1)) * d / 2 = 13 * 18 + (13 * 12) * 2 / 2 = 234
+
+The sum of the first 13 terms is 0.",0.0
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+Calculate the total worth, in million forints, of the goods produced in factory A in the next 20 years (from 2019 to 2038) altogether.","To calculate the total worth of goods produced in factory A in the next 20 years, we need to consider the annual production growth rate of 5%.
+
+First, we calculate the total production of factory A in 20 years with the initial production of 500 million forints:
+
+Total production in 20 years = (500 * (1 + 0.05)^20) forints
+
+Total production in 20 years = (500 * 1.18729) forints
+
+Total production in 20 years = 593.645 million forints
+
+Now, we calculate the total production of factory B in the next 20 years with the initial production of 400 million forints and a growth rate of 6%:
+
+Total production in 20 years = (400 * (1 + 0.06)^20) forints
+
+Total production in 20 years = (400 * 1.21649) forints
+
+Total production in 20 years = 486.5936 million forints
+
+Finally, we calculate the total worth of goods produced in both factories in the next 20 years:
+
+Total production in 20 years = 593.645 + 486.5936 forints
+
+Total production in 20 years = 1,080.2386 million forints
+
+Therefore, the total worth of goods produced in factory A in the next 20 years is 593.645 million forints.",1.0
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+The above plans were published on an economy website. A debate started in the comment section of the article: one user claimed that the difference between the volumes of production between the two factories would get smaller and smaller in the next couple of years.
+
+Calculate the missing values of the table below and show that the above claim is not true.
+
+| Year | Production volume of factory A (million Ft) | Production volume of factory B (million Ft) |
+|------|--------------------------------------------|---------------------------------------------|
+| 2018 | 500                                        | 400                                         |
+| 2019 |                                            |                                             |
+| 2020 |                                            |                                             |
+| 2021 |                                            |                                             |","According to the given information, we can calculate the production volumes of both factories for the next few years.
+
+Factory A's production will increase by 5% each year, while factory B's production will increase by 6% each year.
+
+| Year | Production volume of factory A (million Ft) | Production volume of factory B (million Ft) |
+|------|--------------------------------------------|---------------------------------------------|
+| 2018 | 500                                        | 400                                         |
+| 2019 | 500 * (1 + 0.05) = 525                      | 400 * (1 + 0.06) = 444                    |
+| 2020 | 525 * (1 + 0.05) = 551.25                  | 444 * (1 + 0.06) = 470.4                  |
+| 2021 | 551.25 * (1 + 0.05) = 578.4375              | 470.4 * (1 + 0.06) = 492.64                |
+
+As can be seen from the calculated values, the difference between the production volumes of the two factories is not decreasing but is actually increasing. The production volume of factory A is growing faster than that of factory B, which is why the difference is getting larger.
+
+The claim that the difference between the volumes of production between the two factories would get smaller and smaller in the next couple of years is not true.",2.5
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+Calculate the year in which the production volume of factory B will reach the production volume of factory A. (Assuming the increase in production will, in fact, follow the plans.)","To calculate the year in which the production volume of factory B will reach the production volume of factory A, we first need to find out how much they need to increase their production to catch up with factory A.
+
+Factory A's production in 2018 was 500 million forints, and they plan to increase production by 5% each year. So in the first year (2019), their production will increase by 5% to 500 * 1.05 = 525 million forints. In the second year (2020), their production will increase by another 5% to 525 * 1.05 = 551.25 million forints.
+
+Factory B's production in 2018 was 400 million forints, and they plan to increase production by 6% each year. So in the first year (2019), their production will increase by 6% to 400 * 1.06 = 424 million forints. In the second year (2020), their production will increase by another 6% to 424 * 1.06 = 448.64 million forints.
+
+Now we need to find the first year when the production of factory B is greater than or equal to the production of factory A. In 2019, factory A's production will be 525 million forints, while factory B's production will be 424 million forints. This is not yet greater than the production of factory A. In 2020, factory A's production will be 551.25 million forints, while factory B's production will be 448.64 million forints. This is still not greater than the production of factory A.
+
+So, the first year when the production of factory B will be greater than or equal to the production of factory A is 2021, when factory A's production will be 551.25 million forints, and factory B's production will be 472.16 million forints (448.64 * 1.06 = 472.16).
+
+Therefore, it will take 3 years for the production of factory B to reach the production level of factory A (2021, 2022, and 2023).",0.0
+"Answer the following question:
+Magic Spheres dessert is sold in boxes that have a shape of a regular hexagon-based prism. Each edge of the regular hexagonal base is 5 cm long and the height of the box is 3 cm. The box contains 6 chocolate balls, each has a diameter of 2.8 cm.
+
+What percentage of the volume of the box is the volume of the chocolate?","To answer this question, we first need to calculate the volume of the box, the volume of the chocolate balls, and then the percentage of the chocolate balls' volume compared to the box's volume.
+
+1. Volume of the box:
+The box is a regular hexagonal prism, so its volume can be calculated using the formula V = B * h, where B is the area of the base and h is the height.
+
+The area of the hexagonal base can be found using the formula A = a² * √3, where a is the length of each side of the hexagon. In this case, a = 5 cm.
+
+So the volume of the box is V = (5² * √3) * 3 = 15 * √3 * 3 = 45 * √3 cubic centimeters (cc).
+
+2. Volume of the chocolate balls:
+Each chocolate ball has a diameter of 2.8 cm, so its volume can be found using the formula V = π * r², where r is the radius.
+
+The radius of the chocolate ball is 2.8 cm / 2 = 1.4 cm.
+
+So the volume of each chocolate ball is V = π * (1.4²) = 3.14 * 1.96 = 6.1544 cubic centimeters (cc).
+
+3. Percentage of the chocolate balls' volume compared to the box's volume:
+The number of chocolate balls in the box is 6, so the total volume of the chocolate balls is 6 * 6.1544 = 36.9264 cc.
+
+The percentage of the chocolate balls' volume compared to the box's volume is (36.9264 / 45 * √3) * 100 = 29.23%.
+
+Therefore, 29.23% of the volume of the Magic Spheres dessert box is the volume of the chocolate balls.",1.0
+"Answer the following question:
+Chocolate balls in Magic Spheres dessert are individually wrapped in either gold or red wrapping foil. The sorting machine randomly drops the chocolate balls into the boxes, the probability of a red one is $\frac{1}{3}$, the probability of a gold one is $\frac{2}{3}$, a total six chocolate balls in each box.
+
+Calculate the probability that at least 5 of the 6 chocolate balls in a box will be wrapped in gold foil.","To calculate the probability that at least 5 of the 6 chocolate balls in a box will be wrapped in gold foil, we can use the complementary probability approach. This means we will calculate the probability that exactly 5 of the 6 chocolate balls in a box are wrapped in gold foil, and then subtract that probability from 1 to find the probability that at least 5 of the 6 chocolate balls in a box are wrapped in gold foil.
+
+The probability that exactly 5 of the 6 chocolate balls in a box are wrapped in gold foil is calculated by multiplying the probability of getting 5 gold balls (which is $\frac{2}{3}^5$) by the total number of ways to arrange 5 gold balls in a box of 6 (which is 6! / (5! * 1!)). This gives us:
+
+$$P(\text{5 gold balls}) = \frac{2}{3}^5 \cdot \frac{6!}{5! \cdot 1!}$$
+
+Now, to find the probability that at least 5 of the 6 chocolate balls in a box are wrapped in gold foil, we subtract the probability that exactly 5 of the 6 chocolate balls in a box are wrapped in gold foil from 1 (1 - $P(\text{5 gold balls})$):
+
+$$P(\geq\text{5 gold balls}) = 1 - P(\text{5 gold balls})$$
+
+Substituting the value of $P(\text{5 gold balls})$ from above, we get:
+
+$$P(\geq\text{5 gold balls}) = 1 - \frac{2}{3}^5 \cdot \frac{6!}{5! \cdot 1!}$$
+
+Simplifying the expression, we get:
+
+$$P(\geq\text{5 gold balls}) = 1 - \frac{2}{3} \cdot \frac{6!}{5!}$$
+
+$$P(\geq\text{5 gold balls}) = 1 - \frac{2}{3} \cdot \frac{720}{5!}$$
+
+$$P(\geq\text{5 gold balls}) = 1 - \frac{2 \cdot 720}{3 \cdot 5 \cdot 4 \cdot 3 \cdot 2}$$
+
+$$P(\geq\text{5 gold balls}) = 1 - \frac{1440}{24}$$
+
+$$P(\geq\text{5 gold balls}) = 1 - 60$$
+
+$$P(\geq\text{5 gold balls}) = 1 - 60 = 40$$
+
+So, the probability that at least 5 of the 6 chocolate balls in a box will be wrapped in gold foil is 40%.",0.0
+"Answer the following question:
+Each side of the regular hexagon $ABCDEF$ is 5 cm long. The hexagon is rotated around the perpendicular bisector of side $AB$.
+
+Calculate the volume of the resulting solid.","To calculate the volume of the resulting solid, we first need to find the height of the prism that is formed when the hexagon is rotated around the perpendicular bisector of side $AB$.
+
+The height of the prism can be found by calculating the distance from the perpendicular bisector to the base of the prism, which is formed by the sides of the hexagon. To do this, we can use the Pythagorean theorem.
+
+The perpendicular bisector of side $AB$ divides side $AB$ into two equal segments, $AC$ and $BD$. The length of $AC$ is half the length of $AB$, so it's 5 cm / 2 = 2.5 cm. Similarly, the length of $BD$ is also 2.5 cm.
+
+The triangle $ACD$ is isosceles, with equal sides $AC$ and $CD$. The height of the prism can be found by drawing a perpendicular line from the vertex $C$ to the base of the isosceles triangle $ACD$ (which is $BD$). This creates a right triangle with legs $AC$ and $CD$ and hypotenuse $BD$.
+
+Applying the Pythagorean theorem to this right triangle, we have:
+
+$$CD^2 + AC^2 = BD^2$$
+
+$$(2.5 cm)^2 + (2.5 cm)^2 = BD^2$$
+
+$$6.25 + 6.25 = BD^2$$
+
+$$12.5 = BD^2$$
+
+$$BD = \sqrt{12.5}$$
+
+$$BD \approx 3.5$$
+
+So the height of the prism is approximately 3.5 cm.
+
+Now that we have the height of the prism, we can calculate its volume using the formula for the volume of a prism:
+
+$$V = \frac{1}{3} BH$$
+
+Where $B$ is the base of the prism (in this case, the area of a regular hexagon), and $H$ is the height of the prism.
+
+The area of a regular hexagon can be found using the formula:
+
+$$A = (3 s)^2$$
+
+Where $s$ is the length of a side of the hexagon. In this case, $s = 5 cm$.
+
+So the area of the hexagon is:
+
+$$A = (3 \times 5 cm)^2$$
+
+$$A = 45 cm^2$$
+
+Plugging this area into the volume formula, we get:
+
+$$V = \frac{1}{3} \times 45 cm^2 \times 3.5 cm$$
+
+$$V = 5 \times 3.5$$
+
+$$V = 17.5$$
+
+So the volume of the resulting solid is approximately 17.5 cubic centimeters.",0.0

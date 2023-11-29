@@ -1,0 +1,42 @@
+# https://editorconfig.org/
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.py]
+indent_size = 4
+src_paths=evaluation
+
+[*.{yaml,yml,json}]
+indent_size = 2
+
+[*.md]
+indent_size = 2
+x-soft-wrap-text = true
+
+[*.rst]
+indent_size = 4
+x-soft-wrap-text = true
+
+[*.{bib,tex}]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+
+[*.sh]
+indent_style = tab
+
+[*.bat]
+end_of_line = crlf
+indent_style = tab
+
+[*.{cpp,h,cu,cuh}]
+indent_size = 2

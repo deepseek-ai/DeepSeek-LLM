@@ -1,0 +1,722 @@
+prompt,answer,Points
+"Answer the following question:
+Given are two sets: $A=\{a ; b ; e ; g\}$ and $B=\{a ; b ; c ; d ; f\}$.
+
+By listing its elements, give the set $B \backslash A$."," The set $B \backslash A$ is the set of elements that are in $B$ but not in $A$.
+
+Listing the elements of $B$, we have $B = \{a, b, c, d, f\}$.
+
+Listing the elements of $A$, we have $A = \{a, b, e, g\}$.
+
+To find the set $B \backslash A$, we need to remove the elements of $A$ from $B$.
+
+Therefore, $B \backslash A = \{c, d, f\}$.
+
+So, the set $B \backslash A$ is $\{c, d, f\}$.The answer is: \{c,d,f\}",2.0
+"Answer the following question:
+Bori, Kristóf and Marci are playing a role-playing card game. At the beginning of the game they each select one out of 10 role cards, without replacement. In how many different arrangements of the roles can the game begin?"," There are 10 choices for the first role, then 9 choices for the second role, and so on, until there is only 1 choice for the last role.
+Therefore, the total number of different arrangements is $10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = \boxed{362,880}$.
+The answer is: 362,880",0.0
+"Answer the following question:
+Zita's salary has been raised from $275000$ Ft to $308000$ Ft. By what percentage has Zita's salary been raised?"," To find the percentage increase, we can use the formula:
+
+Percentage increase = ((New value - Old value) / Old value) * 100
+
+In this case, the old value is $275000$ Ft and the new value is $308000$ Ft.
+
+Plugging in the values, we get:
+
+Percentage increase = ((308000 - 275000) / 275000) * 100
+
+Simplifying the expression, we have:
+
+Percentage increase = (33000 / 275000) * 100
+
+Calculating the fraction, we get:
+
+Percentage increase = 0.12
+
+To express this as a percentage, we multiply by 100:
+
+Percentage increase = 0.12 * 100
+
+Percentage increase = 12
+
+Therefore, Zita's salary has been raised by $12\%$.",2.0
+"Answer the following question:
+In triangle $A B C \overrightarrow{A B}=\mathbf{b}, \overrightarrow{A C}=\mathbf{c}$. The midpoint of side $A B$ is point $F$, the midpoint of side $A C$ is $G$. Express vector $\overrightarrow{F G}$ in terms of vectors $\mathbf{b}$ and $\mathbf{c}$. Explain your answer."," Since $F$ is the midpoint of side $A B$, we have $\overrightarrow{AF}=\frac{1}{2}\overrightarrow{AB}$ and $\overrightarrow{BF}=\frac{1}{2}\overrightarrow{AB}$. Similarly, since $G$ is the midpoint of side $A C$, we have $\overrightarrow{AG}=\frac{1}{2}\overrightarrow{AC}$ and $\overrightarrow{CG}=\frac{1}{2}\overrightarrow{AC}$.
+
+Therefore, we can express vector $\overrightarrow{F G}$ as follows:
+\begin{align*}
+\overrightarrow{F G} &= \overrightarrow{B G} - \overrightarrow{B F} \\
+&= \overrightarrow{AG} - \overrightarrow{B F} \\
+&= \overrightarrow{AG} - \frac{1}{2}\overrightarrow{AB} \\
+&= \frac{1}{2}\overrightarrow{AC} - \frac{1}{2}\overrightarrow{AB} \\
+&= \frac{1}{2}\overrightarrow{AC} - \frac{1}{2}\overrightarrow{AC} \\
+&= \boxed{0}.
+\end{align*}",0.0
+"Answer the following question:
+Give five positive numbers such that their median is 3 and their range is 7 ."," To find five positive numbers with a median of 3 and a range of 7, we can start by considering the middle value of the numbers. Since the median is 3, the middle number is 3.
+
+The range is the difference between the largest and smallest numbers, so we need to find four numbers that are greater than 3 and less than the middle number.
+
+Let's assume the five numbers are a, b, c, d, and e, with a < b < c < d < e. Since the median is 3, we know that c = 3.
+
+To find the other four numbers, we can start by considering the smallest number, which is a. Since a < b, we know that a is less than 3.
+
+Next, we can consider the largest number, which is e. Since c < d < e, we know that d is greater than 3 and less than e.
+
+To find the remaining two numbers, we can use the range of 7. The range is the difference between the largest and smallest numbers, so we know that e - a = 7.
+
+Substituting the values we know, we have d - 3 = 7. Solving for d, we find that d = 10.
+
+Now we can find the remaining two numbers by considering the order of the numbers. Since a < b < c < d < e, we know that a < 3 < 10 < 3 < e.
+
+Therefore, the five positive numbers are a, b, c, d, and e, where a < b < c < d < e.
+
+To find the exact values of a, b, c, d, and e, we can use the information we have. However, without additional information, we cannot determine the exact values of a, b, c, d, and e.",0.0
+"Answer the following question:
+Determine the decimal (base 10) value of the binary (base 2) number 101011."," To convert a binary number to decimal, we can use the place value system.
+In binary, each digit represents a power of 2. Starting from the rightmost digit, we multiply it by 2 raised to the power of its position and add it to the next digit multiplied by 2 raised to the power of its position, and so on.
+In this case, the binary number is 101011.
+Starting from the rightmost digit, we have:
+1 * 2^0 = 1
+0 * 2^1 = 0
+1 * 2^2 = 4
+0 * 2^3 = 0
+1 * 2^4 = 16
+1 * 2^5 = 32
+1 * 2^6 = 64
+Adding them all together, we get: 1 + 0 + 4 + 0 + 16 + 32 + 64 = 123.
+Therefore, the decimal value of the binary number 101011 is 123.The answer is: 123",0.0
+"Answer the following question:
+It is known that $\log_{2}(x)=5$. Give the value of $\log_{2}(2x)$. Explain your answer."," We are given that $\log_{2}(x)=5$. This means that $2^5=x$. 
+
+To find the value of $\log_{2}(2x)$, we can use the property of logarithms that states $\log_{a}(b\cdot c) = \log_{a}(b) + \log_{a}(c)$. 
+
+Using this property, we can rewrite $\log_{2}(2x)$ as $\log_{2}(2) + \log_{2}(x)$. 
+
+Since $\log_{2}(2)=1$, we have $\log_{2}(2x) = 1 + \log_{2}(x)$. 
+
+Substituting the value of $x$ from the given equation, we have $\log_{2}(2x) = 1 + \log_{2}(2^5)$. 
+
+Simplifying further, we have $\log_{2}(2x) = 1 + 5 = \boxed{6}$.",2.0
+"Answer the following question:
+List all integer values of $x$ for which both of the inequalities $-6 \leq x \leq 2$ and $-4<x<10$ are true."," To find the integer values of $x$ that satisfy both inequalities, we need to find the values of $x$ that are greater than or equal to $-6$ and less than $10$. 
+
+The first inequality $-6 \leq x$ tells us that $x$ must be greater than or equal to $-6$. 
+
+The second inequality $-4 < x < 10$ tells us that $x$ must be between $-4$ and $10$, inclusive. 
+
+Combining these inequalities, we find that $x$ must be greater than or equal to $-6$ and less than $10$. 
+
+The integer values of $x$ that satisfy these inequalities are $-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$. 
+
+Therefore, the integer values of $x$ that satisfy both inequalities are $-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$.",0.0
+"Answer the following question:
+Sixteen teams have signed up for the school indoor football championship. In how many different ways can the two teams playing the opening game be selected?"," There are 16 teams, and we need to select 2 teams for the opening game.
+This is a combination problem, so we can use the formula for combinations: $\binom{n}{k} = \frac{n!}{k!(n-k)!}$.
+In this case, we have $n=16$ and $k=2$, so the number of ways to select the two teams is $\binom{16}{2} = \frac{16!}{2!(16-2)!} = \frac{16!}{2!14!} = \frac{16 \cdot 15}{2 \cdot 1} = \boxed{120}$.
+The answer is: 120",2.0
+"Answer the following question:
+The sides of the right triangle $A B C$ are $a=7, b=24, c=25$ units long. Calculate the length of the height that belongs to the hypotenuse. Explain your answer."," To find the length of the height that belongs to the hypotenuse, we can use the Pythagorean theorem. According to the theorem, in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.
+
+In this case, the lengths of the sides are $a=7$, $b=24$, and $c=25$. Therefore, we can set up the equation:
+
+$a^2 + b^2 = c^2$
+
+Substituting the given values:
+
+$7^2 + 24^2 = 25^2$
+
+$49 + 576 = 625$
+
+$625 = 625$
+
+The equation holds true, which means that the triangle is a right triangle. Now, to find the length of the height that belongs to the hypotenuse, we can use the formula:
+
+Area of the right triangle = (base * height) / 2
+
+In this case, the base is $c=25$ units long. To find the height, we need to solve for it. Let's denote the height as $h$.
+
+Area of the right triangle = (25 * h) / 2
+
+Multiplying both sides by 2:
+
+Area of the right triangle = 25h
+
+Now, we can use the Pythagorean theorem again to find the height.
+
+Area of the right triangle = (base * height) / 2
+
+Area of the right triangle = (25 * h) / 2
+
+25h = 2 * Area of the right triangle
+
+Dividing both sides by 25:
+
+h = (2 * Area of the right triangle) / 25
+
+Substituting the given area of the right triangle:
+
+h = (2 * (25h) / 25) / 25
+
+h = h
+
+Therefore, the length of the height that belongs to the hypotenuse is equal to the area of the right triangle divided by 25.",0.0
+"Answer the following question:
+Given is line $e: 5 x-y=7$. Give one normal vector of line $e$.", The direction vector of line $e$ is $\begin{pmatrix} 5 \\ -1 \end{pmatrix}$.,1.0
+"Answer the following question:
+Given is line $e: 5 x-y=7$. Give the equation of the line that passes through the point $P(3 ; 2)$ and is parallel to line $e$."," Since line $e$ has slope $5$, the line that passes through $P(3,2)$ and is parallel to line $e$ will have slope $5$.  Therefore, the equation of this line is of the form $y - 2 = 5(x - 3)$, or $\boxed{5x - y - 11 = 0}$.",0.0
+"Answer the following question:
+Function $f$ below is defined over the set of non-negative real numbers. Functions $g$ and $h$ are defined over the set of real numbers. 
+$$f(x)=\sqrt{x}-2 \quad g(x)=(x-2)^{2}-3 \quad h(x)=2 \sin x$$
+
+For which function is the following statement true: The minimum value of the function is (-2)."," To find the minimum value of the function $f(x) = \sqrt{x} - 2$, we need to find the critical points of the function and determine which one gives the minimum value.
+
+First, we find the derivative of $f(x)$:
+$$f'(x) = \frac{d}{dx} (\sqrt{x} - 2) = \frac{1}{2\sqrt{x}} - 2.$$
+
+Next, we set $f'(x) = 0$ to find the critical points:
+$$\frac{1}{2\sqrt{x}} - 2 = 0.$$
+
+Simplifying, we have:
+$$\frac{1}{2\sqrt{x}} = 2.$$
+
+Multiplying both sides by $2\sqrt{x}$, we get:
+$$1 = 4x.$$
+
+Dividing both sides by $4$, we have:
+$$\frac{1}{4} = x.$$
+
+So, the critical point is $x = \frac{1}{4}$.
+
+To determine if this critical point gives the minimum value, we can check the sign of $f''(x)$ at this point:
+$$f''(x) = \frac{d^2}{dx^2} (\sqrt{x} - 2) = \frac{1}{2\sqrt{x}} - 2.$$
+
+At $x = \frac{1}{4}$, we have:
+$$f''\left(\frac{1}{4}\right) = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{16}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{16}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 = \frac{1}{2\sqrt{\frac{1}{4}}} - 2 =",0.0
+"Answer the following question:
+Function $f$ below is defined over the set of non-negative real numbers. Functions $g$ and $h$ are defined over the set of real numbers. 
+$$f(x)=\sqrt{x}-2 \quad g(x)=(x-2)^{2}-3 \quad h(x)=2 \sin x$$
+
+For which function is the following statement true: The function has at least two zeros."," To determine whether a function has at least two zeros, we need to check if the function is continuous and has a local minimum or maximum.
+
+First, let's check if $f(x)$ is continuous. Since $f(x) = \sqrt{x} - 2$, we can see that $f(x)$ is continuous for all $x \geq 0$ because the square root function is continuous on this interval.
+
+Next, let's check if $f(x)$ has a local minimum or maximum. To do this, we can find the derivative of $f(x)$ and determine if it is positive or negative at $x = 0$.
+
+The derivative of $f(x)$ is $f'(x) = \frac{1}{2\sqrt{x}} - 2$.
+
+At $x = 0$, we have $f'(0) = \frac{1}{2\sqrt{0}} - 2 = -2$. Since $f'(x)$ is negative at $x = 0$, this means that $f(x)$ has a local maximum at $x = 0$.
+
+Since $f(x)$ has a local maximum at $x = 0$, it means that $f(x)$ is continuous and has a local minimum at $x = 0$. Therefore, $f(x)$ has at least one zero.
+
+Next, let's check if $g(x)$ has at least one zero. To do this, we can find the derivative of $g(x)$ and determine if it is positive or negative at $x = 2$.
+
+The derivative of $g(x)$ is $g'(x) = 2(x - 2)$.
+
+At $x = 2$, we have $g'(2) = 2(2 - 2) = 0$. Since $g'(x)$ is zero at $x = 2$, this means that $g(x)$ is continuous and has a local minimum at $x = 2$.
+
+Since $g(x)$ has a local minimum at $x = 2$, it means that $g(x)$ is continuous and has a local minimum at $x = 2$. Therefore, $g(x)$ has at least one zero.
+
+Finally, let's check if $h(x)$ has at least one zero. To do this, we can find the derivative of $h(x)$ and determine if it is positive or negative at $x = 1$.
+
+The derivative of $h(x)$ is $h'(x) = 2\cos x$.
+
+At $x = 1$, we have $h'(1) = 2\cos 1$. Since $h'(x)$ is negative at $x = 1$, this means that $h(x)$ is continuous and has a local maximum at $x = 1$.
+
+Since $h(x)$ has a local maximum at $x = 1$, it means that $h(x)$ is continuous and has a local maximum at $x = 1$. Therefore, $h(x)$ has at least one zero.
+
+In conclusion, all three functions $f(x)$, $g(x)$, and $h(x)$ have at least one zero.",0.0
+"Answer the following question:
+The numbers $1,2,3,4,5$ and 6 have been written on a sheet of paper. Any two of these numbers are connected with a line (edge) if and only if one number is a divisor of the other (none of the numbers are connected to themselves). This will give a 6-point graph. 
+
+Draw this graph."," To draw this graph, we can start by placing the numbers on the sheet of paper in a line. We can label the numbers as $1, 2, 3, 4, 5, 6$.
+
+Next, we need to determine which numbers are divisors of each other. We can do this by checking which pairs of numbers multiply to give a product that is one of the numbers on the sheet.
+
+From the given numbers, we can see that $1$ is a divisor of $1, 2, 3, 4, 5, 6$.
+
+$2$ is a divisor of $1, 2, 4, 6$.
+
+$3$ is a divisor of $3$.
+
+$4$ is a divisor of $4$.
+
+$5$ is a divisor of $5$.
+
+$6$ is a divisor of $6$.
+
+Now, we can use this information to draw the graph. We can start by placing the numbers on the sheet of paper in a line.
+
+Next, we need to determine the connections between the numbers. We can see that the following connections are possible:
+
+- $1$ is connected to $2$
+- $1$ is connected to $3$
+- $1$ is connected to $4$
+- $1$ is connected to $5$
+- $1$ is connected to $6$
+- $2$ is connected to $4$
+- $2$ is connected to $6$
+- $3$ is connected to $3$
+- $3$ is connected to $6$
+- $4$ is connected to $4$
+- $4$ is connected to $6$
+- $5$ is connected to $5$
+- $5$ is connected to $6$
+- $6$ is connected to $6$
+
+We can represent these connections with lines on the graph.
+
+Here is the graph of the numbers and their connections:
+
+```
+    1
+   / \
+  2   3
+ / \   \
+4   5   6
+```
+
+Therefore, the graph of the numbers $1, 2, 3, 4, 5, 6$ with the given conditions is:
+
+```
+    1
+   / \
+  2   3
+ / \   \
+4   5   6
+```",0.0
+"Answer the following question:
+Determine the truth value of the following two statements (true or false). Explain your answer.
+
+I. There exists a positive integer that has exactly 4 positive divisors.
+
+II. If the integer $n$ is not a divisor of the integer $m$ then $n$ and $m$ are relative primes (co-primes)."," I. Let's consider a positive integer $n$ that has exactly 4 positive divisors. The divisors of $n$ must be 1, $n$, and any other divisor that divides $n$ without leaving a remainder. Since $n$ has exactly 4 divisors, it must be a prime number raised to the power of 3. For example, $n = 2^3 = 8$ has divisors 1, 2, 4, and 8. Therefore, the statement is true.
+
+II. Let's consider two integers $n$ and $m$. If $n$ is not a divisor of $m$, then $n$ and $m$ are co-primes. This means that their greatest common divisor (GCD) is 1. For example, if $m = 12$ and $n = 4$, then $n$ is not a divisor of $m$, and their GCD is 4. Therefore, the statement is true.",2.0
+"Answer the following question:
+Consider the following two events:
+
+A: Roll a fair gambling dice once, the number shown is a divisor of 24.
+
+B: Roll a fair gambling dice twice, none of the numbers shown is a 6 .
+
+Which of the two events has a higher probability?", Event A has a higher probability.,1.0
+"Answer the following question:
+In a physics class, students were experimenting in pairs, measuring the acceleration of an object sliding down a slope. Each of the six pairs measured the acceleration four times. Here are the results obtained by Emma and Norbi:
+
+Trial 1: $1.9 m/s^2$
+Trial 2: $2.0 m/s^2$
+Trial 3: $1.8 m/s^2$
+Trial 4: $2.3 m/s^2$
+
+Calculate the standard deviation of the four results Emma and Norbi obtained."," To calculate the standard deviation, we need to find the mean of the four results and then find the square root of the variance.
+
+Mean = (1.9 + 2.0 + 1.8 + 2.3) / 4 = 1.95
+
+Variance = [(1.9 - 1.95)^2 + (2.0 - 1.95)^2 + (1.8 - 1.95)^2 + (2.3 - 1.95)^2] / 4
+                = [(0.05)^2 + (0.05)^2 + (0.15)^2 + (0.35)^2] / 4
+                = 0.00025
+
+Standard deviation = sqrt(variance) = sqrt(0.00025) = 0.0083
+
+Therefore, the standard deviation of the four results Emma and Norbi obtained is 0.0083.",2.0
+"Answer the following question:
+In a physics class, students were experimenting in pairs, measuring the acceleration of an object sliding down a slope. Each of the six pairs measured the acceleration four times. Here are the results obtained by Emma and Norbi:
+
+Trial 1: $1.9 m/s^2$
+Trial 2: $2.0 m/s^2$
+Trial 3: $1.8 m/s^2$
+Trial 4: $2.3 m/s^2$
+
+The average of the 20 values obtained by the other five pairs is exactly $1.9 m/s^2$.
+
+What is the average of the 24 results of the six pairs? Round your answer to two decimal places."," To find the average of the 24 results, we need to first find the sum of all the values obtained by the six pairs.
+
+The sum of the values obtained by Emma and Norbi is:
+$1.9 + 2.0 + 1.8 + 2.3 = 8.0$
+
+Since there are 6 pairs, the sum of the values obtained by the other five pairs is:
+$8.0 \times 5 = 40.0$
+
+The total sum of all the values obtained by the six pairs is:
+$8.0 + 40.0 = 48.0$
+
+Therefore, the average of the 24 results is:
+$\frac{48.0}{24} = 2.0$
+
+Rounding to two decimal places, the average is:
+$2.0$",1.0
+"Answer the following question:
+In another experiment, students examined the motion of a ball that had been shot vertically upwards from the ground and then fell back. According to their results, the distance $h$ of the ball from the ground follows the rule $h(t)=6 t-5 t^{2}$, where $t$ is the time passed since the ball has been shot upwards. (Time values are measured in seconds, distances in metres.)
+
+According to the formula above, how high above the ground is the ball 0.5 seconds after it has been shot upwards?"," To find the height of the ball 0.5 seconds after it has been shot upwards, we need to evaluate the expression $h(t) = 6t - 5t^2$ at $t = 0.5$.
+
+Substituting $t = 0.5$ into the expression, we have:
+
+$h(0.5) = 6(0.5) - 5(0.5)^2$
+
+Simplifying, we get:
+
+$h(0.5) = 3 - 0.25$
+
+$h(0.5) = 2.75$
+
+Therefore, the ball is 2.75 meters above the ground 0.5 seconds after it has been shot upwards.",1.0
+"Answer the following question:
+In another experiment, students examined the motion of a ball that had been shot vertically upwards from the ground and then fell back. According to their results, the distance $h$ of the ball from the ground follows the rule $h(t)=6 t-5 t^{2}$, where $t$ is the time passed since the ball has been shot upwards. (Time values are measured in seconds, distances in metres.)
+
+How many seconds after it has been shot upwards will the ball reach a height of 1m above the ground?"," We are given that $h(t) = 6t - 5t^2$. We want to find the time $t$ when $h(t) = 1$.
+
+Setting $h(t) = 1$, we have $6t - 5t^2 = 1$. Rearranging, we get $5t^2 - 6t + 1 = 0$.
+
+We can solve this quadratic equation by factoring or using the quadratic formula. Factoring, we have $(5t - 1)(t - 1) = 0$.
+
+Setting each factor equal to zero, we find $5t - 1 = 0$ or $t - 1 = 0$. Solving each equation, we get $t = \frac{1}{5}$ or $t = 1$.
+
+Therefore, the ball will reach a height of 1m above the ground after $\boxed{\frac{1}{5}}$ seconds or $\boxed{1}$ second.",3.0
+"Answer the following question:
+The side of a square is 4 cm. Two line segments are drawn into this square such that they trisect one of the right angles of the square.
+
+Calculate the area of the triangle shaded grey in the diagram."," To calculate the area of the triangle, we need to find the base and height of the triangle.
+
+The base of the triangle is the side of the square, which is 4 cm.
+
+To find the height of the triangle, we need to find the length of the line segment that trisects one of the right angles of the square.
+
+Since the square is divided into three equal parts by the two line segments, each part is 4 cm / 3 = 1.33 cm.
+
+Therefore, the height of the triangle is 1.33 cm.
+
+To calculate the area of the triangle, we multiply the base (4 cm) by the height (1.33 cm):
+
+Area = (4 cm) * (1.33 cm) = 5.32 cm^2.
+
+Therefore, the area of the triangle shaded grey is 5.32 cm^2.",0.0
+"Answer the following question:
+Select one interior point of a square of the same size and connect it to the four vertices, as seen in the diagram. The triangles obtained will be coloured in either blue, green or yellow. All three colours must be used and each triangle is coloured in a single colour. No adjacent triangles (sharing a common side) may be coloured the same.
+
+In how many different ways can the square be coloured if the above rules are followed?"," To solve this problem, we can consider the possible scenarios for coloring the triangles.
+
+First, let's consider the first triangle. It can be colored in three ways: blue, green, or yellow.
+
+Next, let's consider the second triangle. Since it shares a side with the first triangle, it can only be colored in two ways: blue or green.
+
+Similarly, the third triangle can only be colored in two ways: blue or green.
+
+Finally, the fourth triangle can only be colored in one way since it is adjacent to the first triangle and must be colored differently.
+
+Therefore, the total number of different ways to color the square is $3 \times 2 \times 2 \times 1 = \boxed{12}$.",0.0
+"Answer the following question:
+Select one interior point of a square of the same size and connect it to the four vertices, as seen in the diagram.
+
+Consider the sums of the areas of the opposite triangle pairs drawn into the square of side 4 cm.
+
+Prove that the sums of the areas of the opposite triangle pairs are equal, i.e. the total area shaded grey in the diagram is equal to the total white area."," To prove that the sums of the areas of the opposite triangle pairs are equal, we can use the concept of similar triangles.
+
+Let's label the points as follows:
+
+- A, B, C, D are the vertices of the square.
+- E, F, G, H are the points where we connect the sides of the square to form triangle pairs.
+
+Since the square has side length 4 cm, we can see that triangle ABE and triangle CDE are congruent (they share the same height and base). Similarly, triangle BFG and triangle AGH are also congruent.
+
+Since the triangles are congruent, their areas are also equal. Therefore, the sum of the areas of the opposite triangle pairs (ABE + BFG + AGH + CDE) is equal to the sum of the areas of the shaded grey triangle pairs (ABE + BFG + AGH + CDE).
+
+Therefore, we have proven that the total area shaded grey in the diagram is equal to the total white area.",0.0
+"Answer the following question:
+Solve the following equations in the set of real numbers.
+
+$$2 \cdot \sqrt{3 - x} = x + 5$$"," To solve the equation $2 \cdot \sqrt{3 - x} = x + 5$, we can start by isolating the square root term. We can do this by dividing both sides of the equation by 2:
+
+$$\sqrt{3 - x} = \frac{x + 5}{2}$$
+
+Next, we can square both sides of the equation to eliminate the square root:
+
+$$(\sqrt{3 - x})^2 = \left(\frac{x + 5}{2}\right)^2$$
+
+This simplifies to:
+
+$$3 - x = \frac{(x + 5)^2}{4}$$
+
+Multiplying both sides of the equation by 4 to eliminate the fraction, we get:
+
+$$12 - 4x = x^2 + 10x + 25$$
+
+Rearranging the equation, we have:
+
+$$x^2 + 6x + 12 = 0$$
+
+Now, we can factor the quadratic equation:
+
+$$(x + 3)(x + 4) = 0$$
+
+Setting each factor equal to zero, we find two possible solutions:
+
+$$x + 3 = 0 \quad \Rightarrow \quad x = -3$$
+$$x + 4 = 0 \quad \Rightarrow \quad x = -4$$
+
+Therefore, the solutions to the equation $2 \cdot \sqrt{3 - x} = x + 5$ are $x = -3$ and $x = -4$.",2.0
+"Answer the following question:
+Solve the following equations in the set of real numbers.
+
+$$\frac{x}{x+1} + \frac{x^2}{x^2 - 1} = 2$$"," To solve the equation, we can start by factoring the denominator of the first fraction:
+
+$$\frac{x}{x+1} + \frac{x^2}{x^2 - 1} = 2$$
+
+$$\frac{x}{x+1} + \frac{x^2}{(x+1)(x-1)} = 2$$
+
+Next, we can find a common denominator:
+
+$$\frac{x(x-1)}{(x+1)(x-1)} + \frac{x^2}{(x+1)(x-1)} = 2$$
+
+Combining the fractions:
+
+$$\frac{x(x-1) + x^2}{(x+1)(x-1)} = 2$$
+
+Simplifying the numerator:
+
+$$\frac{x^2 - x + x^2}{(x+1)(x-1)} = 2$$
+
+Combining like terms:
+
+$$\frac{2x^2 - x}{(x+1)(x-1)} = 2$$
+
+Multiplying both sides by $(x+1)(x-1)$:
+
+$$2x^2 - x = 2(x+1)(x-1)$$
+
+Expanding the right side:
+
+$$2x^2 - x = 2(x^2 - 1)$$
+
+Simplifying:
+
+$$2x^2 - x = 2x^2 - 2$$
+
+Subtracting $2x^2$ from both sides:
+
+$$-x = -2$$
+
+Dividing both sides by $-1$:
+
+$$x = 2$$
+
+Therefore, the solution to the equation is $x = 2$.",4.0
+"Answer the following question:
+The first term of an arithmetic sequence is 18. The sum of the first six terms of the sequence is equal to the sum of the first seven terms.
+
+Show that the sum of the first 13 terms of the sequence is 0 and calculate the 13th term of the sequence."," Let the common difference of the arithmetic sequence be $d$.
+The sum of the first $n$ terms of an arithmetic sequence is given by the formula $S_n = \frac{n}{2}(2a + (n-1)d)$, where $a$ is the first term and $d$ is the common difference.
+
+We are given that the first term $a = 18$ and the sum of the first six terms is equal to the sum of the first seven terms.
+So, we have $\frac{6}{2}(2(18) + 5d) = \frac{7}{2}(2(18) + 6d)$.
+Simplifying, we get $6(18) + 30d = 7(18) + 21d$.
+Expanding and combining like terms, we have $108 + 30d = 126 + 21d$.
+Subtracting $21d$ and $108$ from both sides, we get $9d = 18$.
+Dividing both sides by $9$, we find $d = 2$.
+
+Now, we can find the sum of the first 13 terms of the sequence using the formula $S_{13} = \frac{13}{2}(2(18) + 12d)$.
+Substituting $d = 2$, we have $S_{13} = \frac{13}{2}(2(18) + 12(2))$.
+Simplifying, we get $S_{13} = \frac{13}{2}(36 + 24)$.
+Further simplifying, we have $S_{13} = \frac{13}{2}(60)$.
+Dividing both sides by $\frac{13}{2}$, we find $S_{13} = 390$.
+
+Therefore, the sum of the first 13 terms of the sequence is 390.
+
+To find the 13th term of the sequence, we can use the formula $a_n = a + (n-1)d$, where $a_n$ is the $n$th term.
+Substituting $a = 18$, $d = 2$, and $n = 13$, we have $a_{13} = 18 + (13-1)(2)$.
+Simplifying, we get $a_{13} = 18 + 12(2)$.
+Further simplifying, we have $a_{13} = 18 + 24$.
+Therefore, the 13th term of the sequence is $a_{13} = \boxed{42}$.The answer is: 42",0.0
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+Calculate the total worth, in million forints, of the goods produced in factory A in the next 20 years (from 2019 to 2038) altogether."," To calculate the total worth of goods produced in factory A in the next 20 years, we need to consider the initial production value, the annual increase in production, and the number of years.
+
+Initial production value in factory A: 500 million forints
+Annual increase in production: 5%
+Number of years: 20
+
+First, let's calculate the production value in each year:
+
+Year 1: 500 million forints + (5% of 500 million forints) = 500 million forints + 2.5 million forints = 525 million forints
+Year 2: 525 million forints + (5% of 525 million forints) = 525 million forints + 2.625 million forints = 551.625 million forints
+...
+Year 20: 500 million forints + (5% of 500 million forints) = 500 million forints + 2.5 million forints = 525 million forints
+
+Now, let's calculate the total worth of goods produced in factory A in the next 20 years:
+
+Total worth = Year 1 production value + Year 2 production value + ... + Year 20 production value
+Total worth = 525 million forints + 551.625 million forints + ... + 525 million forints
+
+To simplify the calculation, we can use the formula for the sum of an arithmetic series:
+
+Sum = (n/2)(first term + last term)
+
+where n is the number of terms, first term is the value of the first term, and last term is the value of the last term.
+
+In this case, the first term is 525 million forints, the last term is 525 million forints, and the number of terms is 20.
+
+Sum = (20/2)(525 million forints + 525 million forints)
+     = 10(1050 million forints)
+     = 10500 million forints
+
+Therefore, the total worth of goods produced in factory A in the next 20 years is 10500 million forints.",2.0
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+The above plans were published on an economy website. A debate started in the comment section of the article: one user claimed that the difference between the volumes of production between the two factories would get smaller and smaller in the next couple of years.
+
+Calculate the missing values of the table below and show that the above claim is not true.
+
+| Year | Production volume of factory A (million Ft) | Production volume of factory B (million Ft) |
+|------|--------------------------------------------|---------------------------------------------|
+| 2018 | 500                                        | 400                                         |
+| 2019 |                                            |                                             |
+| 2020 |                                            |                                             |
+| 2021 |                                            |                                             |"," To calculate the missing values of the table, we need to find the production volume for each year based on the given information.
+
+For factory A, the production volume will increase by 5% each year. So, the production volume for 2019 and 2020 can be calculated as follows:
+
+2019 Production volume of factory A = 2018 Production volume of factory A + (5% of 2018 Production volume of factory A)
+2019 Production volume of factory A = 500 + (0.05 * 500) = 500 + 25 = 525 million forints
+
+2020 Production volume of factory A = 2019 Production volume of factory A + (5% of 2019 Production volume of factory A)
+2020 Production volume of factory A = 525 + (0.05 * 525) = 525 + 26.25 = 551.25 million forints
+
+For factory B, the production volume will increase by 6% each year. So, the production volume for 2019 and 2020 can be calculated as follows:
+
+2019 Production volume of factory B = 2018 Production volume of factory B + (6% of 2018 Production volume of factory B)
+2019 Production volume of factory B = 400 + (0.06 * 400) = 400 + 24 = 424 million forints
+
+2020 Production volume of factory B = 2019 Production volume of factory B + (6% of 2019 Production volume of factory B)
+2020 Production volume of factory B = 424 + (0.06 * 424) = 424 + 25.44 = 449.44 million forints
+
+Now, let's fill in the missing values in the table:
+
+| Year | Production volume of factory A (million Ft) | Production volume of factory B (million Ft) |
+|------|--------------------------------------------|---------------------------------------------|
+| 2018 | 500                                        | 400                                         |
+| 2019 | 525                                        | 424                                         |
+| 2020 | 551.25                                   | 449.44                                     |
+| 2021 | 586.38                                   | 475.12                                     |
+
+As we can see, the difference between the volumes of production between the two factories is not getting smaller. In fact, the difference is increasing due to the different growth rates of the two factories. Therefore, the above claim that the difference between the volumes of production would get smaller and smaller in the next couple of years is not true.",3.0
+"Answer the following question:
+In the year 2018 factory A produced goods worth 500 million forints, while factory B produced goods worth 400 million forints. According to their long-term plans, factory A will increase production by 5% each year, while factory B will increase production by 6% per year.
+
+Calculate the year in which the production volume of factory B will reach the production volume of factory A. (Assuming the increase in production will, in fact, follow the plans.)"," To solve this problem, we need to calculate the production volume of each factory for each year and compare them.
+
+Let's assume the initial production volume of factory A is 500 million forints and the initial production volume of factory B is 400 million forints.
+
+For factory A:
+- In the first year, the production volume will be 500 million forints + 5% increase = 500 million + 25 million = 525 million forints.
+- In the second year, the production volume will be 525 million forints + 5% increase = 525 million + 25.5 million = 550.5 million forints.
+- In the third year, the production volume will be 550.5 million forints + 5% increase = 550.5 million + 27.775 million = 578.275 million forints.
+- ...
+
+For factory B:
+- In the first year, the production volume will be 400 million forints + 6% increase = 400 million + 24 million = 424 million forints.
+- In the second year, the production volume will be 424 million forints + 6% increase = 424 million + 25.44 million = 449.44 million forints.
+- In the third year, the production volume will be 449.44 million forints + 6% increase = 449.44 million + 27.104 million = 476.544 million forints.
+- ...
+
+We can continue this process until we find the year in which the production volume of factory B will reach the production volume of factory A.
+
+After calculating the production volumes for each year, we will find that the production volume of factory B will reach the production volume of factory A in the year 2024.",0.0
+"Answer the following question:
+Magic Spheres dessert is sold in boxes that have a shape of a regular hexagon-based prism. Each edge of the regular hexagonal base is 5 cm long and the height of the box is 3 cm. The box contains 6 chocolate balls, each has a diameter of 2.8 cm.
+
+What percentage of the volume of the box is the volume of the chocolate?"," To find the percentage of the volume of the box that is the volume of the chocolate, we need to first calculate the volume of the entire box and then the volume of one chocolate ball.
+
+The volume of a regular hexagonal prism can be calculated using the formula:
+Volume = (Base Area * Height) / 3
+
+The base area of the hexagonal prism is given by the formula:
+Base Area = (3 * √3 / 2) * (edge length)^2
+
+Substituting the given values:
+Base Area = (3 * √3 / 2) * (5 cm)^2 = 157.5 cm^2
+
+The volume of the hexagonal prism is:
+Volume = (157.5 cm^2 * 3 cm) / 3 = 157.5 cm^3
+
+Now, let's calculate the volume of one chocolate ball.
+
+The volume of a sphere can be calculated using the formula:
+Volume = (4/3) * π * (radius)^3
+
+Given that the diameter of each chocolate ball is 2.8 cm, the radius is half of that, which is 1.4 cm.
+
+The volume of one chocolate ball is:
+Volume = (4/3) * π * (1.4 cm)^3 = 10.69 cm^3
+
+To find the percentage of the volume of the box that is the volume of the chocolate, we divide the volume of the chocolate by the volume of the box and multiply by 100:
+
+Percentage = (10.69 cm^3 / 157.5 cm^3) * 100 = 7%
+
+Therefore, the volume of the chocolate is 7% of the volume of the box.",3.0
+"Answer the following question:
+Chocolate balls in Magic Spheres dessert are individually wrapped in either gold or red wrapping foil. The sorting machine randomly drops the chocolate balls into the boxes, the probability of a red one is $\frac{1}{3}$, the probability of a gold one is $\frac{2}{3}$, a total six chocolate balls in each box.
+
+Calculate the probability that at least 5 of the 6 chocolate balls in a box will be wrapped in gold foil."," To calculate the probability that at least 5 of the 6 chocolate balls in a box will be wrapped in gold foil, we can use the binomial probability formula.
+
+The probability of getting exactly k successes in n trials, where the probability of success is p, is given by the formula:
+
+P(k successes) = C(n, k) * p^k * (1-p)^(n-k)
+
+where C(n, k) represents the binomial coefficient, which is the number of ways to choose k successes from n trials.
+
+In this case, we want to find the probability of getting at least 5 gold balls out of 6, which can be represented as:
+
+P(at least 5 gold balls) = P(5 gold balls) + P(6 gold balls)
+
+The probability of getting exactly 5 gold balls out of 6 is:
+
+P(5 gold balls) = C(6, 5) * (2/3)^5 * (1/3)^(6-5)
+= 6 * (2/3)^5 * (1/3)
+= 6 * (32/243) * (1/3)
+= 6 * (8/243)
+= 48/243
+
+The probability of getting exactly 6 gold balls out of 6 is:
+
+P(6 gold balls) = C(6, 6) * (2/3)^6 * (1/3)^(6-6)
+= 1 * (2/3)^6 * (1/3)^(6-6)
+= (2/3)^6 * (1/3)^0
+= (2/3)^6
+
+Therefore, the probability of getting at least 5 gold balls out of 6 is:
+
+P(at least 5 gold balls) = P(5 gold balls) + P(6 gold balls)
+= 48/243 + (2/3)^6
+
+To calculate this probability, we can use a calculator or computer software.",4.0
+"Answer the following question:
+Each side of the regular hexagon $ABCDEF$ is 5 cm long. The hexagon is rotated around the perpendicular bisector of side $AB$.
+
+Calculate the volume of the resulting solid."," To find the volume of the resulting solid, we can use the formula for the volume of a solid of revolution.
+
+The solid is formed by rotating the regular hexagon around the perpendicular bisector of side $AB$. This means that the solid is a solid of revolution with radius $AB/2$ and height $5$.
+
+The volume of a solid of revolution is given by the formula:
+$$V = \pi r^2 h$$
+where $r$ is the radius and $h$ is the height.
+
+In this case, the radius is $AB/2$ and the height is $5$. Substituting these values into the formula, we get:
+$$V = \pi \left(\frac{AB}{2}\right)^2 \cdot 5$$
+
+Since $AB$ is the side length of the regular hexagon, we know that $AB = 5$ cm. Substituting this value into the formula, we get:
+$$V = \pi \left(\frac{5}{2}\right)^2 \cdot 5$$
+
+Simplifying, we have:
+$$V = \pi \cdot \frac{25}{4} \cdot 5$$
+$$V = \pi \cdot \frac{125}{4}$$
+
+Evaluating this expression, we find:
+$$V = \frac{125\pi}{4}$$
+
+Therefore, the volume of the resulting solid is $\frac{125\pi}{4}$ cubic centimeters.",0.0
