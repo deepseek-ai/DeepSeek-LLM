@@ -64,7 +64,7 @@ Introducing DeepSeek LLM, an advanced language model comprising 67 billion param
 
  - **Superior General Capabilities:** DeepSeek LLM 67B Base outperforms Llama2 70B Base in areas such as reasoning, coding, math, and Chinese comprehension.
 
- - **Proficient in Coding and Math:** DeepSeek LLM 67B Chat exhibits outstanding performance in coding (HumanEval Pass@1: 73.78) and mathematics (GSM8K 0-shot: 84.1, Math 4-shot: 32.6). It also demonstrates remarkable generalization abilities, as evidenced by its exceptional score of 65 on the Hungarian National High School Exam.
+ - **Proficient in Coding and Math:** DeepSeek LLM 67B Chat exhibits outstanding performance in coding (HumanEval Pass@1: 73.78) and mathematics (GSM8K 0-shot: 84.1, Math 0-shot: 32.6). It also demonstrates remarkable generalization abilities, as evidenced by its exceptional score of 65 on the Hungarian National High School Exam.
 
  - **Mastery in Chinese Language:** Based on our evaluation, DeepSeek LLM 67B Chat surpasses GPT-3.5 in Chinese.
 
