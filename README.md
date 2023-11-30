@@ -126,7 +126,7 @@ In line with Grok-1, we have evaluated the model's mathematical capabilities usi
   <img src="images/mathexam.png" alt="result" width="70%">
 </div>
 
-**Remark:** Some results are obtained by DeepSeek authors, while others are done by Grok-1 authors. We found some models count the score of the last question (Llemma 34b and Mammoth) while some (MetaMath-7B) are not in the original evaluation. In our evaluation, we count the last question score. Evaluation details are [here](https://github.com/deepseek-ai/DeepSeek-LLM/tree/dev/evaluation/hungarian_national_hs_solutions).
+**Remark:** Some results are obtained by DeepSeek authors, while others are done by Grok-1 authors. We found some models count the score of the last question (Llemma 34b and Mammoth) while some (MetaMath-7B) are not in the original evaluation. In our evaluation, we count the last question score. Evaluation details are [here](https://github.com/deepseek-ai/DeepSeek-LLM/tree/HEAD/evaluation/hungarian_national_hs_solutions).
 
 
 ---
@@ -159,7 +159,7 @@ The specific questions and test cases will be released soon. Stay tuned!
 | DeepSeek LLM 7B Chat  | 57.9     | 49.4 | 62.6  | 48.2      | 42.3 | 47.0   | 49.7  |  75.0 |
 | DeepSeek LLM 67B Chat | 81.5     | 71.1 | 84.1  | 73.8      | 71.7 | 65.2   | 67.8  |  85.1 |
 
-**Note:** We evaluate chat models with 0-shot for MMLU, GSM8K, C-Eval, and CMMLU. More evaluation results can be found [here](https://github.com/deepseek-ai/DeepSeek-LLM/blob/dev/evaluation/more_results.md).
+**Note:** We evaluate chat models with 0-shot for MMLU, GSM8K, C-Eval, and CMMLU. More evaluation results can be found [here](https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/evaluation/more_results.md).
 
 **Revisit Multi-Choice Question Benchmarks**
 
