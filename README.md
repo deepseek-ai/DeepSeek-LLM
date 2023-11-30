@@ -299,7 +299,7 @@ print(generated_text)
 
 ### Could You Provide the tokenizer.model File for Model Quantization?
 
-DeepSeek LLM utilizes the [HuggingFace Tokenizer](https://huggingface.co/docs/tokenizers/index) to implement the Byte-level-BPE algorithm, with specially designed pre-tokenizers to ensure optimal performance. Currently, there is no direct way to convert the tokenizer into a SentencePiece tokenizer. We are contributing to the open-source quantization methods facilitate the usage of HuggingFace Tokenizer.
+DeepSeek LLM utilizes the [HuggingFace Tokenizer](https://huggingface.co/docs/tokenizers/index) to implement the Byte-level BPE algorithm, with specially designed pre-tokenizers to ensure optimal performance. Currently, there is no direct way to convert the tokenizer into a SentencePiece tokenizer. We are contributing to the open-source quantization methods facilitate the usage of HuggingFace Tokenizer.
 
 #### GGUF(llama.cpp)
 
@@ -322,7 +322,7 @@ python convert-hf-to-gguf.py <MODEL_PATH> --outfile <GGUF_PATH> --model-name dee
 ```
 #### GPTQ(exllamav2)
 
-`UPDATE:`[exllamav2](https://github.com/turboderp/exllamav2) has been able to support Huggingface Tokenizer. Please pull the latest version and try out.
+`UPDATE:`[exllamav2](https://github.com/turboderp/exllamav2) has been able to support HuggingFace Tokenizer. Please pull the latest version and try out.
 
 
 ## 7. Limitation
