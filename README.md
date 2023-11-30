@@ -68,7 +68,6 @@ Introducing DeepSeek LLM, an advanced language model comprising 67 billion param
 
  - **Mastery in Chinese Language:** Based on our evaluation, DeepSeek LLM 67B Chat surpasses GPT-3.5 in Chinese.
 
-<a id="model-downloads"></a>
 ## 2. Model Downloads
 
 We release the DeepSeek LLM 7B/67B, including both base and chat models, to the public. To support a broader and more diverse range of research within both academic and commercial communities, we are providing access to the intermediate checkpoints of the base model from its training process. Please **note** that the use of this model is subject to the terms outlined in [License section](#8-license). Commercial usage is permitted under these terms.
@@ -96,7 +95,6 @@ aws s3 cp s3://deepseek-ai/DeepSeek-LLM/DeepSeek-LLM-7B-Base <local_path> --recu
 aws s3 cp s3://deepseek-ai/DeepSeek-LLM/DeepSeek-LLM-67B-Base <local_path> --recursive  --request-payer
 ```
 
-<a id="evaluation-results"></a>
 ## 3. Evaluation Results
 
 ### Base Model
@@ -204,7 +202,6 @@ We release the training loss curve and several benchmark metrics curves, as deta
   <img src="images/pretrain_metric.png" alt="result" width="80%">
 </div>
 
-<a id="quick-start"></a>
 ## 5. Quick Start
 
 ### Installation
