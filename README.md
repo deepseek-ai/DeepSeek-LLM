@@ -126,7 +126,7 @@ In line with Grok-1, we have evaluated the model's mathematical capabilities usi
   <img src="images/mathexam.png" alt="result" width="70%">
 </div>
 
-**Remark:** Some results are obtained by DeepSeek authors, while others are done by Grok-1 authors. We found some models count the score of the last question (Llemma 34b and Mammoth) while some (MetaMath-7B) are not in the original evaluation. In our evaluation, we count the last question score. Evaluation details are [here](https://github.com/deepseek-ai/DeepSeek-LLM/tree/dev/evaluation/hungarian_national_hs_solutions).
+**Remark:** Some results are obtained by DeepSeek LLM authors, while others are done by Grok-1 authors. We found some models count the score of the last question (Llemma 34b and Mammoth) while some (MetaMath-7B) are not in the original evaluation. In our evaluation, we count the last question score. Evaluation details are [here](https://github.com/deepseek-ai/DeepSeek-LLM/tree/HEAD/evaluation/hungarian_national_hs_solutions).
 
 
 ---
@@ -159,7 +159,7 @@ The specific questions and test cases will be released soon. Stay tuned!
 | DeepSeek LLM 7B Chat  | 57.9     | 49.4 | 62.6  | 48.2      | 42.3 | 47.0   | 49.7  |  75.0 |
 | DeepSeek LLM 67B Chat | 81.5     | 71.1 | 84.1  | 73.8      | 71.7 | 65.2   | 67.8  |  85.1 |
 
-**Note:** We evaluate chat models with 0-shot for MMLU, GSM8K, C-Eval, and CMMLU. More evaluation results can be found [here](https://github.com/deepseek-ai/DeepSeek-LLM/blob/dev/evaluation/more_results.md).
+**Note:** We evaluate chat models with 0-shot for MMLU, GSM8K, C-Eval, and CMMLU. More evaluation results can be found [here](https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/evaluation/more_results.md).
 
 **Revisit Multi-Choice Question Benchmarks**
 
@@ -297,9 +297,13 @@ print(generated_text)
 
 ## 6. FAQ
 
-### Could You Provide the tokenizer.model File for GGUF Model Quantization?
+### Could You Provide the tokenizer.model File for Model Quantization?
 
-DeepSeek LLM utilizes the [HuggingFace Tokenizer](https://huggingface.co/docs/tokenizers/index) to implement the Bytelevel-BPE algorithm, with specially designed pre-tokenizers to ensure optimal performance. Currently, there is no direct way to convert the tokenizer into a SentencePiece tokenizer. We have submitted a [PR](https://github.com/ggerganov/llama.cpp/pull/4070) to the popular quantization repository [llama.cpp](https://github.com/ggerganov/llama.cpp) to fully support all HuggingFace pre-tokenizers, including ours.
+DeepSeek LLM utilizes the [HuggingFace Tokenizer](https://huggingface.co/docs/tokenizers/index) to implement the Byte-level BPE algorithm, with specially designed pre-tokenizers to ensure optimal performance. Currently, there is no direct way to convert the tokenizer into a SentencePiece tokenizer. We are contributing to the open-source quantization methods facilitate the usage of HuggingFace Tokenizer.
+
+#### GGUF(llama.cpp)
+
+We have submitted a [PR](https://github.com/ggerganov/llama.cpp/pull/4070) to the popular quantization repository [llama.cpp](https://github.com/ggerganov/llama.cpp) to fully support all HuggingFace pre-tokenizers, including ours.
 
 While waiting for the PR to be merged, you can generate your GGUF model using the following steps:
 
@@ -311,11 +315,15 @@ git checkout regex_gpt2_preprocess
 make
 python3 -m pip install -r requirements.txt
 # generate GGUF model
-python convert-hf-to-gguf.py <MODEL_PATH> --outfile <GGUF_PATH> --model-name deepseekcoder
+python convert-hf-to-gguf.py <MODEL_PATH> --outfile <GGUF_PATH> --model-name deepseekllm
 # use q4_0 quantization as an example
 ./quantize <GGUF_PATH> <OUTPUT_PATH> q4_0
 ./main -m <OUTPUT_PATH> -n 128 -p <PROMPT>
 ```
+#### GPTQ(exllamav2)
+
+`UPDATE:`[exllamav2](https://github.com/turboderp/exllamav2) has been able to support HuggingFace Tokenizer. Please pull the latest version and try out.
+
 
 ## 7. Limitation
 
