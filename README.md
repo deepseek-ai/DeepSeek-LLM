@@ -212,11 +212,7 @@ On the basis of `Python >= 3.8` environment, install the necessary dependencies 
 pip install -r requirements.txt
 ```
 
-### Inference
-
-Here are some examples of utilizing our models.
-
-#### Inference with Huggingface's Transformers
+### Inference with Huggingface's Transformers
 
 You can directly employ [Huggingface's Transformers](https://github.com/huggingface/transformers) for model inference.
 
@@ -274,7 +270,7 @@ Assistant:
 
 **Note:** By default (`add_special_tokens=True`), our tokenizer automatically adds a `bos_token` (`<｜begin▁of▁sentence｜>`) before the input text. Additionally, since the system prompt is not compatible with this version of our models, we DO NOT RECOMMEND including the system prompt in your input.
 
-#### Inference with vLLM
+### Inference with vLLM
 
 You can also employ [vLLM](https://github.com/vllm-project/vllm) for high-throughput inference.
 
