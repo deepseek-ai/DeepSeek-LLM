@@ -216,9 +216,11 @@ pip install -r requirements.txt
 
 Here are some examples of utilizing our models.
 
-**Text Completion**
+#### Inference with Huggingface's Transformers
 
-You can directly employ [Huggingface's Transformers](https://github.com/huggingface/transformers) for model inference:
+You can directly employ [Huggingface's Transformers](https://github.com/huggingface/transformers) for model inference.
+
+**Text Completion**
 
 ```python
 import torch
@@ -272,9 +274,11 @@ Assistant:
 
 **Note:** By default (`add_special_tokens=True`), our tokenizer automatically adds a `bos_token` (`<｜begin▁of▁sentence｜>`) before the input text. Additionally, since the system prompt is not compatible with this version of our models, we DO NOT RECOMMEND including the system prompt in your input.
 
-**Inference with vLLM**
+#### Inference with vLLM
 
 You can also employ [vLLM](https://github.com/vllm-project/vllm) for high-throughput inference.
+
+**Text Completion**
 
 ```python
 from vllm import LLM, SamplingParams
@@ -289,6 +293,32 @@ prompts = [
     "The research should also focus on the technologies",
     "To determine if the label is correct, we need to"
 ]
+outputs = llm.generate(prompts, sampling_params)
+
+generated_text = [output.outputs[0].text for output in outputs]
+print(generated_text)
+```
+
+**Chat Completion**
+
+```python
+from transformers import AutoTokenizer
+from vllm import LLM, SamplingParams
+
+tp_size = 4 # Tensor Parallelism
+sampling_params = SamplingParams(temperature=0.7, top_p=0.9, max_tokens=100)
+model_name = "deepseek-ai/deepseek-llm-67b-chat"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+llm = LLM(model=model_name, trust_remote_code=True, gpu_memory_utilization=0.9, tensor_parallel_size=tp_size)
+
+messages_list = [
+    [{"role": "user", "content": "Who are you?"}],
+    [{"role": "user", "content": "What can you do?"}],
+    [{"role": "user", "content": "Explain Transformer briefly."}],
+]
+prompts = [tokenizer.apply_chat_template(messages, add_generation_prompt=True, tokenize=False) for messages in messages_list]
+
+sampling_params.stop = [tokenizer.eos_token]
 outputs = llm.generate(prompts, sampling_params)
 
 generated_text = [output.outputs[0].text for output in outputs]
