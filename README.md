@@ -126,7 +126,7 @@ In line with Grok-1, we have evaluated the model's mathematical capabilities usi
   <img src="images/mathexam.png" alt="result" width="70%">
 </div>
 
-**Remark:** Some results are obtained by DeepSeek LLM authors, while others are done by Grok-1 authors. We found some models count the score of the last question (Llemma 34b and Mammoth) while some (MetaMath-7B) are not in the original evaluation. In our evaluation, we count the last question score. Evaluation details are [here](https://github.com/deepseek-ai/DeepSeek-LLM/tree/HEAD/evaluation/hungarian_national_hs_solutions).
+**Remark:** We have rectified an error from our initial evaluation. In this revised version, we have omitted the lowest scores for questions 16, 17, 18, as well as for the aforementioned image.   Evaluation details are [here](https://github.com/deepseek-ai/DeepSeek-LLM/tree/HEAD/evaluation/hungarian_national_hs_solutions).
 
 
 ---
