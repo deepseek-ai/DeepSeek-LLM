@@ -22,7 +22,7 @@
 
 |                Model                | DeepSeek LLM 67B Chat | Qwen-14B-Chat | ChatGLM3-6B | Baichuan2-Chat-13B | Yi-Chat-34B | GPT-3.5-Turbo | Grok-1 | Claude 2 | GPT-4 |
 |:-----------------------------------:|:---------------------:|:-------------:|:-----------:|:------------------:|:-----------:|:-------------:|:------:|:--------:|:-----:|
-| Hungarian National High-School Exam |        **58**         |     36.5      |     32      |        19.5        |     44      |      41       |   59   |    55    |  68   |
+| Hungarian National High-School Exam |        **58**         |     36.5      |     32      |        19.5        |     39     |      41       |   59   |    55    |  68   |
 
 
 |               Model                | Qwen-14B-Chat | ChatGLM3-6B | Baichuan2-Chat-13B | Yi-Chat-34B | PaLM2 Small | DeepSeek LLM 67B Chat | GPT-4 |
