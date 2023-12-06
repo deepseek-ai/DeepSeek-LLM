@@ -380,7 +380,7 @@ This code repository is licensed under [the MIT License](https://github.com/deep
 
 ```
 @misc{deepseek-llm,
-  author = {DeepSeek-AI},
+  author = {DeepSeek},
   title = {DeepSeek LLM: Let there be answers},
   year = {2023},
   publisher = {GitHub},
