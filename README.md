@@ -379,13 +379,11 @@ This code repository is licensed under [the MIT License](https://github.com/deep
 ## 9. Citation
 
 ```
-@misc{deepseek-llm,
-  author = {DeepSeek},
-  title = {DeepSeek LLM: Let there be answers},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/deepseek-ai/DeepSeek-LLM}},
+@article{deepseek-llm,
+  author = {DeepSeek-AI},
+  title = {DeepSeek LLM: Scaling Open-Source Language Models with Longtermism},
+  journal={arXiv preprint arXiv:2401.02954},
+  year={2024}
 }
 ```
 
