@@ -130,12 +130,11 @@ In line with Grok-1, we have evaluated the model's mathematical capabilities usi
 
 
 ---
-**Instruction Following Evaluation:** On Nov 15th, 2023, Google released an [instruction following evaluation dataset](https://arxiv.org/pdf/2311.07911.pdf). They identified 25 types of verifiable instructions and constructed around 500 prompts, with each prompt containing one or more verifiable instructions. We use the prompt-level loose metric to evaluate all models.
+**Instruction Following Evaluation:** On Nov 15th, 2023, Google released an [instruction following evaluation dataset](https://arxiv.org/pdf/2311.07911.pdf). They identified 25 types of verifiable instructions and constructed around 500 prompts, with each prompt containing one or more verifiable instructions. We use the prompt-level loose metric to evaluate all models. Here, we used the first version released by Google for the evaluation. For the Google revised test set evaluation results, please refer to the number in our paper. 
 
 <div align="center">
   <img src="images/if_eval.png" alt="result" width="70%">
 </div>
-
 
 ---
 
