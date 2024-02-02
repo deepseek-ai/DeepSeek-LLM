@@ -20,6 +20,7 @@
 
 </div>
 
+
 <div align="center">
 
   <a href="https://discord.gg/Tc7c45Zzu5" target="_blank">
@@ -51,6 +52,11 @@
   <a href="#3-evaluation-results">Evaluation Results</a> |
   <a href="#8-license">License</a> |
   <a href="#9-citation">Citation</a>
+</p>
+
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2401.02954"><b>Paper Link</b>👁️</a>
 </p>
 
 
